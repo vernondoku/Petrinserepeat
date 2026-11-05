@@ -8,18 +8,22 @@
   "creator": "Dsf34dwqa2",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Armour_Theater_-_Front_from_Left.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Armour_Theater_-_Front_from_Left.jpg",
+  "approved": true,
+  "pos": "object-[center_45%]"
  },
  {
   "slug": "kansas-city-mo",
   "landmark": "Union Station",
   "file": "kansas-city-mo-union-station",
-  "alt": "Exterior of Union Station in Kansas City, Missouri.",
+  "alt": "The arched front of Union Station in Kansas City, Missouri",
   "status": "pending",
   "creator": "Daderot",
   "license": "Public domain - copyright-holder release",
   "licenseUrl": null,
-  "source": "https://commons.wikimedia.org/wiki/File:Exterior,_Union_Station_(Kansas_City)_-_DSC07825.JPG"
+  "source": "https://commons.wikimedia.org/wiki/File:Exterior,_Union_Station_(Kansas_City)_-_DSC07825.JPG",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "gladstone-mo",
@@ -30,7 +34,9 @@
   "creator": "25or6to4",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Atkins-Johnson_Farmhouse,_Gladstone,_MO.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Atkins-Johnson_Farmhouse,_Gladstone,_MO.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "liberty-mo",
@@ -41,7 +47,9 @@
   "creator": "25or6to4",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Clay_County_Courthouse,_Liberty,_MO.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Clay_County_Courthouse,_Liberty,_MO.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "parkville-mo",
@@ -52,7 +60,9 @@
   "creator": "Americasroof",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Mckay-hall-parkville.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Mckay-hall-parkville.jpg",
+  "approved": true,
+  "pos": "object-[center_40%]"
  },
  {
   "slug": "platte-city-mo",
@@ -63,18 +73,22 @@
   "creator": "Americasroof; revised by Kbh3rd",
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
-  "source": "https://commons.wikimedia.org/wiki/File:Platte-courthouse.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Platte-courthouse.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "riverside-mo",
   "landmark": "Interstate 635 Missouri River Bridge",
   "file": "riverside-mo-interstate-635-missouri-river-bridge",
-  "alt": "Interstate 635 bridge over the Missouri River between Riverside, Missouri, and Kansas City, Kansas.",
+  "alt": "The Interstate 635 bridge crossing the Missouri River at Riverside, Missouri",
   "status": "pending",
   "creator": "Antony-22",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Interstate_635_Missouri_River_Bridge_2025b.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Interstate_635_Missouri_River_Bridge_2025b.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "smithville-mo",
@@ -85,7 +99,9 @@
   "creator": "Jon Roanhaus",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Downtown_Smithville_Historic_District3_NRHP_14000159_Clay_County,_MO.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Downtown_Smithville_Historic_District3_NRHP_14000159_Clay_County,_MO.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "kearney-mo",
@@ -96,7 +112,9 @@
   "creator": "Americasroof",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Jesse-james-farm.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Jesse-james-farm.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "independence-mo",
@@ -107,7 +125,9 @@
   "creator": "Nationalparks",
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
-  "source": "https://commons.wikimedia.org/wiki/File:Trumanhist.JPG"
+  "source": "https://commons.wikimedia.org/wiki/File:Trumanhist.JPG",
+  "approved": true,
+  "pos": "object-[center_45%]"
  },
  {
   "slug": "blue-springs-mo",
@@ -118,18 +138,22 @@
   "creator": "Rowen Hansen",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Downtown_Blue_Springs_Entrance.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Downtown_Blue_Springs_Entrance.jpg",
+  "approved": true,
+  "pos": "object-[center_40%]"
  },
  {
   "slug": "lees-summit-mo",
   "landmark": "Downtown clock and streetscape",
   "file": "lees-summit-mo-downtown-clock",
-  "alt": "Clock in downtown Lee's Summit, Missouri.",
+  "alt": "The street clock in downtown Lee's Summit, Missouri, against a blue sky",
   "status": "pending",
   "creator": "Roy Harryman",
   "license": "CC0 1.0",
   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Downtown_Lees_Summit.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Downtown_Lees_Summit.jpg",
+  "approved": true,
+  "pos": "object-[center_45%]"
  },
  {
   "slug": "raytown-mo",
@@ -140,7 +164,9 @@
   "creator": "NPS Staff / National Park Service",
   "license": "Public domain in the United States - NPS work",
   "licenseUrl": null,
-  "source": "https://commons.wikimedia.org/wiki/File:5._Rice-Tremonti_Home_(8801_E_66th_Street,_Raytown,_MO)_on_the_California_and_Oregon_National_Historic_Trails_(2003)_(dbc9c787-8c06-40eb-99bb-4da6f5690370).JPG"
+  "source": "https://commons.wikimedia.org/wiki/File:5._Rice-Tremonti_Home_(8801_E_66th_Street,_Raytown,_MO)_on_the_California_and_Oregon_National_Historic_Trails_(2003)_(dbc9c787-8c06-40eb-99bb-4da6f5690370).JPG",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "raymore-mo",
@@ -162,7 +188,9 @@
   "creator": "Nationalparks",
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
-  "source": "https://commons.wikimedia.org/wiki/File:Trumanfarm.JPG"
+  "source": "https://commons.wikimedia.org/wiki/File:Trumanfarm.JPG",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "brookside-mo",
@@ -184,7 +212,9 @@
   "creator": "Charvex",
   "license": "Public domain - copyright-holder release",
   "licenseUrl": null,
-  "source": "https://commons.wikimedia.org/wiki/File:Meyer_Circle_Fountain_Kansas_City_MO.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Meyer_Circle_Fountain_Kansas_City_MO.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "zona-rosa-mo",
@@ -206,7 +236,9 @@
   "creator": "Travis Butler / Tbutler67",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Rosedale_Memorial_Arch.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Rosedale_Memorial_Arch.jpg",
+  "approved": true,
+  "pos": "object-[center_35%]"
  },
  {
   "slug": "overland-park-ks",
@@ -217,7 +249,9 @@
   "creator": "CattleHerd14",
   "license": "CC0 1.0",
   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Museum_at_Prairiefire,_Overland_Park,_Kansas.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Museum_at_Prairiefire,_Overland_Park,_Kansas.jpg",
+  "approved": false,
+  "hold": "weak hero \u2014 keep van photo; replace with PRR original"
  },
  {
   "slug": "prairie-village-ks",
@@ -228,7 +262,9 @@
   "creator": "Paulmcdonald",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Prairie_Village,_Kansas_-_Franklin_Park_Pavilion.JPG"
+  "source": "https://commons.wikimedia.org/wiki/File:Prairie_Village,_Kansas_-_Franklin_Park_Pavilion.JPG",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "leawood-ks",
@@ -239,7 +275,9 @@
   "creator": "Paulmcdonald",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Wesley_Covenant_Chapel,_Church_of_the_Resurrection.JPG"
+  "source": "https://commons.wikimedia.org/wiki/File:Wesley_Covenant_Chapel,_Church_of_the_Resurrection.JPG",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "olathe-ks",
@@ -250,7 +288,9 @@
   "creator": "Rmprit",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:1100_Kansas_City_Rd.,_Olathe,_KS_J.B._Mahaffie_House.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:1100_Kansas_City_Rd.,_Olathe,_KS_J.B._Mahaffie_House.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "lenexa-ks",
@@ -261,7 +301,9 @@
   "creator": "Kelseyneth",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Lenexa_City_Center.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Lenexa_City_Center.jpg",
+  "approved": false,
+  "hold": "weak hero \u2014 keep van photo; replace with PRR original"
  },
  {
   "slug": "shawnee-ks",
@@ -272,7 +314,9 @@
   "creator": "kansasphoto",
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Shawnee_Mission_Park_Lake,_Shawnee_(Kansas),_Vereinigte_Staaten.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Shawnee_Mission_Park_Lake,_Shawnee_(Kansas),_Vereinigte_Staaten.jpg",
+  "approved": false,
+  "hold": "weak hero \u2014 keep van photo; replace with PRR original"
  },
  {
   "slug": "merriam-ks",
@@ -305,7 +349,9 @@
   "creator": "Charvex",
   "license": "Public domain - copyright-holder release",
   "licenseUrl": null,
-  "source": "https://commons.wikimedia.org/wiki/File:ShawneeMission_Conestoga.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:ShawneeMission_Conestoga.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "westwood-ks",
@@ -316,7 +362,9 @@
   "creator": "Paul Sableman; revision by Magnolia677",
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Welcome_sign,_Westwood,_Kansas.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Welcome_sign,_Westwood,_Kansas.jpg",
+  "approved": true,
+  "pos": "object-[center_55%]"
  },
  {
   "slug": "bonner-springs-ks",
@@ -327,7 +375,9 @@
   "creator": "Americasroof",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Ag-hall-bonner.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Ag-hall-bonner.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "basehor-ks",
@@ -338,7 +388,9 @@
   "creator": "TwistedMan1328",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Basehor-Linwood_High_School.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Basehor-Linwood_High_School.jpg",
+  "approved": false,
+  "hold": "weak hero \u2014 keep van photo; replace with PRR original"
  },
  {
   "slug": "lansing-ks",
@@ -349,7 +401,9 @@
   "creator": "City of Lansing Kansas",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Pumpkins.museum.2010.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Pumpkins.museum.2010.jpg",
+  "approved": true,
+  "pos": "object-center"
  },
  {
   "slug": "leavenworth-ks",
@@ -360,6 +414,8 @@
   "creator": "Melissa Bower",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "source": "https://commons.wikimedia.org/wiki/File:Downtown_Leavenworth_Kansas_2019.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Downtown_Leavenworth_Kansas_2019.jpg",
+  "approved": true,
+  "pos": "object-[center_40%]"
  }
 ]

@@ -53,7 +53,7 @@ const heroPool: { img: ImgName; alt: string; pos: string }[] = [
   { img: "van-front", alt: "The front of the Pet Rinse Repeat mobile grooming van", pos: "object-[center_45%]" },
 ];
 
-type LP = { slug: string | null; landmark: string; file: string; alt: string; status: string; approved?: boolean; creator?: string | null; license?: string | null; licenseUrl?: string | null; source?: string | null };
+type LP = { slug: string | null; landmark: string; file: string; alt: string; status: string; approved?: boolean; pos?: string; creator?: string | null; license?: string | null; licenseUrl?: string | null; source?: string | null };
 type Mark = string | { name: string; note?: string };
 
 export default async function Page({ params }: { params: Promise<{ city: string }> }) {
@@ -64,7 +64,7 @@ export default async function Page({ params }: { params: Promise<{ city: string 
   const vanShots = heroPool.filter((h) => ["van-side", "van-curbside", "van-team", "van-front"].includes(h.img));
   const fallback = vanShots[idx % vanShots.length];
   const lp = (landmarkPhotos as LP[]).find((x) => x.slug === c.slug && x.approved && x.file in images);
-  const hero = lp ? { img: lp.file as ImgName, alt: lp.alt, pos: "object-center" } : fallback;
+  const hero = lp ? { img: lp.file as ImgName, alt: lp.alt, pos: lp.pos ?? "object-center" } : fallback;
   const local = (cityContent as { slug: string; neighborhoods: string[]; landmarks: Mark[] }[]).find((x) => x.slug === c.slug);
   const hoods = local?.neighborhoods ?? [];
   const marks = (local?.landmarks ?? []).map((m) => (typeof m === "string" ? { name: m } : m));
@@ -76,11 +76,11 @@ export default async function Page({ params }: { params: Promise<{ city: string 
       {/* Full-width landmark hero with headline over it */}
       <section className="relative overflow-hidden bg-navy text-white">
         <Img name={hero.img} priority alt={hero.alt} sizes="100vw" className={`absolute inset-0 w-full h-full object-cover ${hero.pos}`} />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/70 via-navy/55 to-navy/75" />
+        <div className="absolute inset-0 bg-gradient-to-b from-navy/35 via-navy/40 to-navy/70" />
         <div className="wrap relative py-20 md:py-28 flex flex-col items-center text-center gap-5">
           <p className="kick m-0 text-white/80">Pet Rinse Repeat · mobile grooming</p>
-          <h1 className="disp text-white text-[36px] md:text-[56px] leading-[1.05] m-0 max-w-[900px]">Mobile Dog &amp; Cat Grooming <span className="text-pink">in {where}</span></h1>
-          <p className="text-white/85 text-lg leading-relaxed m-0 max-w-[760px]">Looking for reliable, professional pet grooming in {where}? Pet Rinse Repeat brings mobile dog grooming straight to your driveway, and Here Kitty does the same for cats — one pet at a time, no cages, no car ride, no waiting all day.</p>
+          <h1 className="disp text-white text-[36px] md:text-[56px] leading-[1.05] m-0 max-w-[900px] [text-shadow:0_2px_18px_rgba(20,29,51,.7)]">Mobile Dog &amp; Cat Grooming <span className="text-pink">in {where}</span></h1>
+          <p className="text-white text-lg leading-relaxed m-0 max-w-[760px] [text-shadow:0_1px_10px_rgba(20,29,51,.8)]">Looking for reliable, professional pet grooming in {where}? Pet Rinse Repeat brings mobile dog grooming straight to your driveway, and Here Kitty does the same for cats — one pet at a time, no cages, no car ride, no waiting all day.</p>
           <div className="flex flex-wrap justify-center gap-3 pt-2">
             <CallButton placement={p("hero")} variant="white" />
             <BookButton service="mobile" placement={p("hero")}>Book mobile dog grooming</BookButton>

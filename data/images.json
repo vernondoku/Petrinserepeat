@@ -772,5 +772,283 @@
    800,
    1200
   ]
+ },
+ "bonner-springs-ks-agricultural-hall-of-fame": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "parkville-mo-mackay-hall": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "kansas-city-ks-rosedale-memorial-arch": {
+  "w": 1371,
+  "h": 1600,
+  "widths": [
+   480,
+   800,
+   1200,
+   1371
+  ]
+ },
+ "grandview-mo-truman-farm-home": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "liberty-mo-clay-county-courthouse": {
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "blue-springs-mo-downtown-entrance": {
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "westwood-ks-welcome-sign": {
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "kansas-city-mo-union-station": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "lees-summit-mo-downtown-clock": {
+  "w": 1600,
+  "h": 998,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "fairway-ks-shawnee-indian-mission": {
+  "w": 1100,
+  "h": 820,
+  "widths": [
+   480,
+   800,
+   1100
+  ]
+ },
+ "smithville-mo-historic-downtown-main-street": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "prairie-village-ks-franklin-park-pavilion": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "leawood-ks-wesley-covenant-chapel": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "lansing-ks-historic-railroad-depot": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "ward-parkway-kansas-city-mo-meyer-circle-fountain": {
+  "w": 1469,
+  "h": 854,
+  "widths": [
+   480,
+   800,
+   1200,
+   1469
+  ]
+ },
+ "gladstone-mo-atkins-johnson-farmhouse": {
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "shawnee-ks-shawnee-mission-park-lake": {
+  "w": 1600,
+  "h": 1062,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "kearney-mo-jesse-james-farm": {
+  "w": 1271,
+  "h": 779,
+  "widths": [
+   480,
+   800,
+   1200,
+   1271
+  ]
+ },
+ "platte-city-mo-platte-county-courthouse": {
+  "w": 1600,
+  "h": 832,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "riverside-mo-interstate-635-missouri-river-bridge": {
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "leavenworth-ks-historic-downtown-delaware-street": {
+  "w": 1600,
+  "h": 1062,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "independence-mo-harry-truman-home": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "basehor-ks-basehor-linwood-high-school-sign": {
+  "w": 1600,
+  "h": 901,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "north-kansas-city-mo-armour-theatre": {
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "overland-park-ks-museum-at-prairiefire-interior": {
+  "w": 1200,
+  "h": 1600,
+  "widths": [
+   480,
+   800,
+   1200
+  ]
+ },
+ "olathe-ks-mahaffie-house": {
+  "w": 1600,
+  "h": 1288,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "raytown-mo-rice-tremonti-home": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
+ },
+ "lenexa-ks-city-center": {
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ]
  }
 }
