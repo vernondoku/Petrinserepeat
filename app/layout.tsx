@@ -47,6 +47,7 @@ const mobile = {
   image: `${site.url}/media/van-side.jpg`,
   logo: `${site.url}/media/logo-mobile.png`,
   areaServed: cities.map((c) => ({ "@type": "City", name: `${c.name}, ${c.state}` })),
+  openingHours: site.mobileHoursSchema,
   sameAs: Object.values(site.social),
   aggregateRating: { "@type": "AggregateRating", ratingValue: site.google.mobile.rating, reviewCount: site.google.mobile.reviewCount },
   priceRange: "$$",

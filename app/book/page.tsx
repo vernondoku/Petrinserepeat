@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "Book a Groom", description: "Choose 
 
 export default function Page() {
   const opts: { key: Service; icon: IconName; t: string; d: string }[] = [
-    { key: "mobile", icon: "van", t: "Mobile dog grooming", d: "We come to your driveway. Kansas City metro." },
+    { key: "mobile", icon: "van", t: "Mobile dog grooming", d: `We come to your driveway. Kansas City metro, ${site.mobileHours}.` },
     { key: "salon", icon: "scissors", t: "Salon visit", d: `${site.address.street}, North Kansas City. ${site.salonHours}.` },
     { key: "cat", icon: "cat", t: "Mobile cat grooming", d: "Here Kitty, our cat-only mobile service, comes to you." },
   ];

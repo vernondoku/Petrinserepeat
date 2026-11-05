@@ -53,6 +53,7 @@ export default function Page() {
         { q: "Where are you located?", a: `${a.street}, ${a.city}, ${a.state} ${a.zip} — the storefront with the Pet Rinse Repeat window wrap.` },
         { q: "What are your hours?", a: site.salonHours + "." },
         { q: "How is grooming priced?", a: pricingRules.summary },
+        { q: "What's your cancellation policy?", a: site.cancellationPolicy },
         { q: "Do you groom cats at the salon?", a: "Yes. The salon has its own cat grooming menu, from brush-outs to full haircuts. Prefer the groomer to come to you? Here Kitty is our cat-only mobile service." },
       ]} />
       <FinalCTA service="salon" placement="salon_final" />

@@ -20,9 +20,15 @@ export const site = {
   phoneHref: "tel:+18166064951",
   email: "scheduling@petrinserepeat.com",
   address: { street: "2030 Swift Street", city: "North Kansas City", state: "MO", zip: "64116" },
-  /** Posted on the salon door. */
-  salonHours: "Tuesday–Saturday, 9:00 AM–5:00 PM",
-  salonHoursSchema: ["Tu 09:00-17:00", "We 09:00-17:00", "Th 09:00-17:00", "Fr 09:00-17:00", "Sa 09:00-17:00"],
+  /** Confirmed by Vern Nov 5, 2026 (matches the old site and Google). Note: the door decal still shows Tue–Sat 9–5. */
+  salonHours: "Tue–Thu 8:30 AM–7:00 PM · Fri–Mon 8:30 AM–5:30 PM",
+  salonHoursSchema: ["Tu 08:30-19:00", "We 08:30-19:00", "Th 08:30-19:00", "Fr 08:30-17:30", "Sa 08:30-17:30", "Su 08:30-17:30", "Mo 08:30-17:30"],
+  /** Confirmed by Vern Nov 5, 2026. */
+  mobileHours: "Monday–Sunday, 8:30 AM–5:30 PM",
+  mobileHoursSchema: ["Mo-Su 08:30-17:30"],
+  /** Confirmed by Vern Nov 5, 2026. Applies to mobile and salon. */
+  cancellationPolicy: "Cancellations within 24 hours are charged 50% of the service; same-day cancellations and no-shows are charged 100%.",
+  travelFee: 20,
   /** One MoeGo storefront per service. Confirmed by Vern Nov 4, 2026. */
   booking: {
     mobile: "https://booking.moego.pet/ol/PetRinseRepeat/book",
@@ -96,6 +102,8 @@ export const pricingRules = {
     "One-hour minimum on hourly services; after that, 15-minute increments (a quarter of the hourly rate).",
     "Your groomer sets the size category for desheds based on your dog's coat and build.",
     "Bath & brush services are flat-rate by weight.",
+    "Mobile grooming adds a $20 travel fee per visit.",
+    "Cancellations within 24 hours: 50% of the service. Same-day cancellations and no-shows: 100%.",
   ],
 };
 
@@ -179,7 +187,9 @@ export const boardingPricing: Rate[] | null = null;
 
 export const faqs: { q: string; a: string }[] = [
   { q: "How is grooming priced?", a: pricingRules.summary + " Bath & brush services are a flat rate by weight. You'll see the hourly rate for your dog's service when you book." },
-  { q: "Where is the salon?", a: `${site.address.street}, ${site.address.city}, ${site.address.state} ${site.address.zip}. Open ${site.salonHours}.` },
+  { q: "Where is the salon, and when is it open?", a: `${site.address.street}, ${site.address.city}, ${site.address.state} ${site.address.zip}. ${site.salonHours}.` },
+  { q: "When does mobile grooming run?", a: `${site.mobileHours}, across the Kansas City metro. A $${site.travelFee} travel fee applies per visit.` },
+  { q: "What's your cancellation policy?", a: site.cancellationPolicy + " This applies to mobile and salon appointments." },
   { q: "Do you groom cats?", a: "Yes, two ways. Our salon offers cat grooming at the North Kansas City location, and Here Kitty, our cat-only mobile service, comes to you." },
   { q: "How do I book?", a: "Online, any time. Each service has its own booking page — mobile dog grooming, the salon, and mobile cat grooming — so pick the one you want and choose a time." },
 ];
