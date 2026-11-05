@@ -50,14 +50,14 @@ export default function Page() {
         </div>
       </section>
       <Gallery kick="From the salon" items={[
-        { img: "salon-golden-table", alt: "A Golden Retriever on the salon table while a groomer works on a paw" },
-        { img: "dog-corgi-salon", alt: "A Corgi standing on the grooming table in the salon" },
-        { img: "salon-groomer-sheepadoodle", alt: "A groomer finishing a sheepadoodle's face in the salon" },
-        { img: "dog-pitbull-polish", alt: "A pit bull getting red nail polish at the salon" },
-        { img: "dog-poodle-chiefs", alt: "A standard Poodle in a Chiefs jersey with yellow-dyed feet" },
-        { img: "salon-floor", alt: "The salon grooming floor with its purple and green walls" },
-        { img: "dog-shihtzu-salon", alt: "A black-and-white Shih Tzu mix after a trim" },
-        { img: "cat-persian-salon", alt: "A Persian cat on the salon grooming table" },
+        { img: "salon-husky-rainbow", alt: "A white Husky with rainbow-dyed ears" },
+        { img: "salon-goldendoodle", alt: "A Goldendoodle in a bandana on the salon table" },
+        { img: "salon-frenchie", alt: "A French Bulldog in a bandana at the salon" },
+        { img: "salon-poodle-apricot", alt: "An apricot Standard Poodle at the salon" },
+        { img: "salon-border-collie", alt: "A Border Collie with a bow at the salon" },
+        { img: "dog-poodle-chiefs", alt: "dog-poodle-chiefs" },
+        { img: "salon-corgi", alt: "A Corgi in a bandana at the salon" },
+        { img: "salon-shiba", alt: "A Shiba Inu in a bandana at the salon" },
       ]} />
       <section className="wrap pb-14 md:pb-20 grid lg:grid-cols-[1fr_1.4fr] gap-8 items-center">
         <div className="grid grid-cols-2 gap-4 items-start">

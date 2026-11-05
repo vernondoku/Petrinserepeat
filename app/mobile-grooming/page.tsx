@@ -23,7 +23,7 @@ export default function Page() {
       ]} />
       <Included title={<>A full refresh, <span className="accent">right outside.</span></>}
         items={["Breed-appropriate haircut", "Bath & blow dry", "De-shedding (as needed)", "Ear cleaning", "Sanitary trim", "Nail trim (add-on)"]}
-        img="dog-cavalier-tub" alt="A Cavalier peeking over the edge of the tub, mid-bath" imgPos="object-[center_35%]" />
+        img="van-doodle-tub-tongue" alt="A chocolate doodle in the van tub, soaking wet and grinning" imgPos="object-[center_40%]" />
       <Steps title="Booking mobile grooming is simple." steps={[
         { icon: "chat", t: "Tell us about your pet", d: "Share a few details and your location." },
         { icon: "calendar", t: "Pick your time", d: "Choose from real availability for your area." },
@@ -42,14 +42,14 @@ export default function Page() {
         </div>
       </section>
       <Gallery kick="Groomed in the driveway" items={[
-        { img: "dog-goldendoodle-chiefs", alt: "A Goldendoodle in a Chiefs bandana after a groom in the van" },
-        { img: "dog-sheepadoodle-van", alt: "A sheepadoodle sitting inside the van after a groom" },
-        { img: "dog-poodle-tux", alt: "A small poodle in a tuxedo harness on the van table" },
-        { img: "dog-bulldog-van", alt: "An English Bulldog on the table inside the van" },
-        { img: "dog-yorkie-hands", alt: "A Yorkie's trimmed face held in the groomer's hands" },
-        { img: "dog-yorkiemix-van", alt: "A black-and-white Yorkie mix in front of the van's logo wall" },
-        { img: "dog-yorkie-van", alt: "A Yorkie after a trim in the van" },
-        { img: "dog-shihtzu-chiefs", alt: "A Shih Tzu mix in a Chiefs bandana" },
+        { img: "van-doodle-fresh", alt: "A cream Goldendoodle, freshly groomed, in a bandana in the van" },
+        { img: "van-gsd", alt: "A German Shepherd in a bandana in the van" },
+        { img: "van-shihtzu-pair", alt: "Two Shih Tzus in bows on the van table" },
+        { img: "van-golden", alt: "A Golden Retriever in the van after a groom" },
+        { img: "van-sheepadoodle-tub", alt: "A sheepadoodle in the tub with its tongue out" },
+        { img: "van-collie", alt: "A Rough Collie on the van table" },
+        { img: "van-cockers", alt: "Two Cocker Spaniels in the van" },
+        { img: "van-doodle-pair", alt: "Two doodles on the van table after their grooms" },
       ]} />
       <MobilePolicies />
       <Reviews service="mobile" title={<>Driveway grooms, <span className="accent">rave reviews.</span></>} />

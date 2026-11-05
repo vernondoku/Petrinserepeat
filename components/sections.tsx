@@ -151,8 +151,8 @@ const services: { key: Service; icon: IconName; t: string; d: string; href: stri
   { key: "cat", icon: "cat", t: "Cat grooming", d: "Gentle, cat-specific grooming in our mobile cat spa.", href: "/cat-grooming/" },
 ];
 const serviceImg: Record<Service, { img: ImgName; alt: string; pos: string }> = {
-  mobile: { img: "dog-sheepadoodle-van", alt: "A freshly groomed sheepadoodle sitting inside the Pet Rinse Repeat van", pos: "object-[center_30%]" },
-  salon: { img: "dog-shihtzu-after", alt: "A Shih Tzu after a groom at the Pet Rinse Repeat salon", pos: "object-[center_35%]" },
+  mobile: { img: "van-goldendoodle-bandana", alt: "A red Goldendoodle in a bandana after a groom in the van", pos: "object-[center_30%]" },
+  salon: { img: "salon-poodle-apricot", alt: "An apricot Standard Poodle at the salon", pos: "object-[center_30%]" },
   cat: { img: "cat-persian-salon", alt: "A black-and-white Persian cat on the grooming table", pos: "object-[center_40%]" },
 };
 
@@ -245,15 +245,15 @@ export function Reviews({ service, title, kick = "Hear from our clients" }: { se
 /* ---------- photo gallery ---------- */
 
 export const galleryDefault: { img: ImgName; alt: string }[] = [
-  { img: "dog-goldendoodle-chiefs", alt: "A Goldendoodle in a Chiefs bandana after a groom in the van" },
-  { img: "dog-shihtzu-chiefs", alt: "A black-and-white Shih Tzu mix in a Chiefs bandana" },
-  { img: "dog-poodle-tux", alt: "A small poodle in a tuxedo harness on the van's grooming table" },
-  { img: "dog-cavalier-tub", alt: "A Cavalier peeking over the edge of the tub, mid-bath" },
-  { img: "dog-yorkie-hands", alt: "A Yorkie's freshly trimmed face held gently in the groomer's hands" },
-  { img: "dog-poodle-chiefs", alt: "A standard Poodle in a Chiefs jersey with yellow-dyed feet" },
-  { img: "dog-corgi-salon-2", alt: "A Corgi sitting on the salon grooming table" },
-  { img: "puppy-bow-chair", alt: "A cream puppy with a sparkly bow on a yellow chair" },
-];
+        { img: "van-doodle-fresh", alt: "A cream Goldendoodle, freshly groomed, in a bandana in the van" },
+        { img: "salon-husky-rainbow", alt: "A white Husky with rainbow-dyed ears" },
+        { img: "dog-poodle-chiefs", alt: "dog-poodle-chiefs" },
+        { img: "van-shihtzu-pair", alt: "Two Shih Tzus in bows on the van table" },
+        { img: "salon-frenchie", alt: "A French Bulldog in a bandana at the salon" },
+        { img: "van-sheepadoodle-tub", alt: "A sheepadoodle in the tub with its tongue out" },
+        { img: "salon-goldendoodle-2", alt: "A cream Goldendoodle in a bandana at the salon" },
+        { img: "van-cockers", alt: "Two Cocker Spaniels in the van" },
+      ];
 
 export function Gallery({ title = <>Fresh off <span className="accent">the table.</span></>, kick = "Real clients, real grooms", items = galleryDefault }: { title?: React.ReactNode; kick?: string; items?: { img: ImgName; alt: string }[] }) {
   return (

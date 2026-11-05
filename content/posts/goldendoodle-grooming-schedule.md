@@ -9,8 +9,8 @@ date: "2026-11-05"
 refreshes: null
 service: mobile
 cta: "Book mobile grooming"
-image: dog-goldendoodle-chiefs
-imageAlt: "A Goldendoodle in a Chiefs bandana, freshly groomed in the Pet Rinse Repeat van"
+image: van-doodle-fresh
+imageAlt: "A cream Goldendoodle, freshly groomed, in a bandana in the Pet Rinse Repeat van"
 readMinutes: 10
 evidence:
   - "Top results for 'goldendoodle grooming schedule' and 'how often should you groom a goldendoodle' are owner-education guides (Dogster, iHeartDogs, We Love Doodles, groomer blogs) converging on a professional groom every 4–8 weeks and brushing several times a week to daily; related phrasings in the results include 'how often to bathe a goldendoodle', 'when do goldendoodles shed their puppy coat', and 'goldendoodle teddy bear cut vs puppy cut'."
