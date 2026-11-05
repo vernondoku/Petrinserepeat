@@ -100,7 +100,7 @@ export default function Page() {
       <FAQ items={[
         { q: "Why hourly?", a: "Because no two coats are the same. Hourly pricing based on hands-on time means you pay for the work your dog actually needs — no padded flat rates." },
         { q: "What's the minimum?", a: "One hour on hourly services. After that, time is billed in 15-minute increments at a quarter of the hourly rate." },
-        { q: "Who decides the deshed size category?", a: "Your groomer, based on your dog's coat and build." },
+        { q: "Who decides the service and size category?", a: "Your groomer, based on your dog's coat, build, and behavior at the appointment." },
       ]} />
       <FinalCTA service="mobile" placement="pricing_final" />
     </>
