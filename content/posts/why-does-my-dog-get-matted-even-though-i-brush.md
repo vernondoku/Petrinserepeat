@@ -9,8 +9,8 @@ date: "2026-11-05"
 refreshes: null
 service: salon
 cta: "Book salon grooming"
-image: dog-doodle-scissor
-imageAlt: "A cream doodle getting a scissor finish at the Pet Rinse Repeat salon"
+image: salon-doodle-white
+imageAlt: "A white doodle after a groom at the Pet Rinse Repeat salon"
 readMinutes: 10
 evidence:
   - "Top results for 'why does my dog get matted even though I brush him' are Preventive Vet, PetMD, Purina and grooming-supply blogs that all list the same causes: brushing only the top layer, wrong brush for the coat, friction from collars and harnesses, moisture after baths or swimming, and trapped undercoat during shedding. Google's results page could not be fetched, so sub-questions were inferred from result titles."
