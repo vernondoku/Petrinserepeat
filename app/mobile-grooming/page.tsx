@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Hero, Tiles, Included, Steps, FAQ, FinalCTA, Reviews } from "@/components/sections";
+import { Hero, Tiles, Included, Steps, FAQ, FinalCTA, Reviews, MobilePolicies } from "@/components/sections";
 import { site, cities, pricingRules } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -41,6 +41,7 @@ export default function Page() {
           <Link href="/service-areas/" className="btn btn-ghost btn-sm self-start">All service areas</Link>
         </div>
       </section>
+      <MobilePolicies />
       <Reviews service="mobile" title={<>Driveway grooms, <span className="accent">rave reviews.</span></>} />
       <FAQ items={[
         { q: "Where does the grooming happen?", a: "In the van, parked at your home or office. Your dog never leaves your property." },

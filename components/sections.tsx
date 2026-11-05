@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Img from "./Img";
 import BookButton from "./BookButton";
-import { site, faqs as defaultFaqs, type Service, type ImgName } from "@/data/site";
+import { site, faqs as defaultFaqs, mobilePolicies, type Service, type ImgName } from "@/data/site";
 import { reviews, reviewsByService } from "@/data/reviews";
 
 /* ---------- small bits ---------- */
@@ -220,6 +220,26 @@ export function Reviews({ service, title, kick = "Hear from our clients" }: { se
         ))}
       </ul>
       <p className="text-xs text-ink-soft mt-3 m-0">Quotes from public Google reviews{g ? ` of ${service === "cat" ? g.label : `${site.name} ${g.label}`}` : ""}. Reviewer names as shown on Google.</p>
+    </section>
+  );
+}
+
+/* ---------- mobile policies ---------- */
+
+export function MobilePolicies({ city }: { city?: string }) {
+  return (
+    <section className="wrap pb-14 md:pb-20">
+      <p className="kick m-0">Good to know before you book</p>
+      <h2 className="disp text-[30px] md:text-[36px] m-0 mb-6">Mobile grooming, <span className="accent">the fine print.</span></h2>
+      <ul className="m-0 p-0 list-none grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {mobilePolicies.map((x) => (
+          <li key={x.t} className="card p-5 flex flex-col gap-1.5">
+            <span className="font-display font-bold text-navy text-[17px]">{x.t}</span>
+            <p className="m-0 text-ink-soft text-[15px] leading-relaxed">{x.d}</p>
+          </li>
+        ))}
+      </ul>
+      {city && <p className="text-ink-soft text-[15px] mt-4 m-0">Questions about {city}? Call <a href={site.phoneHref} className="text-pink font-semibold">{site.phone}</a>.</p>}
     </section>
   );
 }

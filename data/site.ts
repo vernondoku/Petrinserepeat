@@ -108,6 +108,17 @@ export const pricingRules = {
   ],
 };
 
+/** Mobile policies, carried over from the old petrinserepeat.com city pages (captured Nov 4, 2026). */
+export const mobilePolicies: { t: string; d: string }[] = [
+  { t: "Scheduling", d: "Mobile appointments typically book 1–3 weeks out depending on your area, with a 3-hour arrival window. Mobile clients keep a recurring 4-, 6-, or 8-week schedule." },
+  { t: "Payment", d: "Credit card only, kept on file. No cash for services — cash tips are always welcome." },
+  { t: "Health & mobility", d: "Dogs over 20 lbs need to walk to and from the van and stand on their own during the groom." },
+  { t: "Parking", d: "We need flat, accessible driveway or street parking. Downtown Kansas City isn't serviced by the van because of parking restrictions — downtown clients are welcome at the salon." },
+  { t: "Breeds & coats", d: "Giant deshed breeds (Bernese Mountain Dogs, Great Pyrenees, Newfoundlands, St. Bernards) are salon-only. Standard and giant doodles are groomed in the van at a summer-cut length or shorter." },
+  { t: "Behavior", d: "Please tell us about any biting or reactive history up front. Undisclosed harmful behavior carries a $300 fee." },
+  { t: "Cats", d: "Cats are groomed by Here Kitty, our cat-only mobile service. Cats must be in a carrier when we arrive; if a groom can't be completed, a $50 travel fee applies." },
+];
+
 type Rate = { name: string; rate: number; per: "hr" | "flat"; note?: string };
 
 export const mobilePricing: { group: string; items: Rate[] }[] = [
