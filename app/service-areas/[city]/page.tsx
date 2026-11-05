@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import Img from "@/components/Img";
 import { Hero, Tiles, Steps, FAQ, FinalCTA, Reviews, MobilePolicies } from "@/components/sections";
 import { cities, site, pricingRules } from "@/data/site";
 import cityContent from "@/data/cities-content.json";
+import landmarkPhotos from "@/data/landmark-photos.json";
+import images from "@/data/images.json";
 import type { ImgName } from "@/data/site";
 
 /** Rotate real client photos through the city heroes so each page looks different. */
@@ -55,6 +58,8 @@ export default async function Page({ params }: { params: Promise<{ city: string 
   type Mark = string | { name: string; note?: string };
   const local = (cityContent as { slug: string; neighborhoods: string[]; landmarks: Mark[] }[]).find((x) => x.slug === c.slug);
   const hoods = local?.neighborhoods ?? [];
+  type LP = { slug: string | null; landmark: string; file: string; alt: string; status: string; approved?: boolean; creator?: string | null; license?: string | null; licenseUrl?: string | null; source?: string | null };
+  const lp = (landmarkPhotos as LP[]).find((x) => x.slug === c.slug && x.approved && x.file in images);
   const marks = (local?.landmarks ?? []).map((m) => (typeof m === "string" ? { name: m } : m));
   return (
     <>
@@ -98,6 +103,12 @@ export default async function Page({ params }: { params: Promise<{ city: string 
             )}
             {marks.length > 0 && (
               <div className="md:col-span-3">
+                {lp && (
+                  <figure className="m-0 mb-4">
+                    <Img name={lp.file as ImgName} alt={lp.alt} sizes="(min-width: 768px) 60vw, 100vw" className="w-full h-[220px] md:h-[280px] object-cover rounded-[20px] shadow-card" />
+                    <figcaption className="text-[12px] text-ink-soft mt-1.5">{lp.landmark}{lp.creator ? <> · photo: {lp.creator}{lp.license && lp.license.toLowerCase().includes("public domain") ? " (public domain)" : lp.licenseUrl ? <>, <a href={lp.licenseUrl} target="_blank" rel="noopener" className="underline">{lp.license}</a></> : null}, resized · <Link href="/photo-credits/" className="underline">credits</Link></> : null}</figcaption>
+                  </figure>
+                )}
                 <p className="kick m-0">Out and about</p>
                 <h2 className="disp text-[24px] m-0 mb-3">Fresh groom, then a walk in {c.name}</h2>
                 <ul className="m-0 p-0 list-none grid sm:grid-cols-2 gap-x-6 gap-y-2.5">
