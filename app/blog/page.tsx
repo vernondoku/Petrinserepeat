@@ -20,7 +20,7 @@ export default function Page() {
           {posts.map((p) => (
             <li key={p.slug} className="card overflow-hidden flex flex-col">
               <Link href={`/blog/${p.slug}/`} className="no-underline flex flex-col h-full">
-                <Img name={p.image} alt={p.imageAlt} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="w-full h-[180px] object-cover" />
+                <Img name={p.image} alt={p.imageAlt} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="w-full h-[220px] object-cover object-[center_15%]" />
                 <span className="p-5 flex flex-col gap-2 flex-1">
                   <span className="text-xs text-ink-soft">{new Date(p.date + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })} · {p.readMinutes} min read</span>
                   <span className="font-display font-bold text-navy text-[19px] leading-snug">{p.title}</span>

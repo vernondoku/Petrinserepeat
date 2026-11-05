@@ -31,7 +31,7 @@ function Grid({ names }: { names: string[] }) {
     <ul className="m-0 p-0 list-none grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
       {names.map((n) => (
         <li key={n} className="rounded-[20px] overflow-hidden shadow-card aspect-square bg-white">
-          <Img name={n as ImgName} alt={all[n]} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw" className="w-full h-full object-cover" />
+          <Img name={n as ImgName} alt={all[n]} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw" className="w-full h-full object-cover object-[center_18%]" />
         </li>
       ))}
     </ul>

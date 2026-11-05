@@ -37,7 +37,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           <h1 className="disp text-[32px] md:text-[44px] leading-[1.1] m-0">{p.title}</h1>
           <p className="text-ink-soft text-lg mt-4 m-0">{p.description}</p>
         </div>
-        <Img name={p.image} alt={p.imageAlt} priority sizes="(min-width: 1024px) 900px, 100vw" className="w-full max-w-[900px] mx-auto h-[260px] md:h-[420px] object-cover rounded-[24px] shadow-card my-8" />
+        <Img name={p.image} alt={p.imageAlt} priority sizes="(min-width: 1024px) 900px, 100vw" className="w-full max-w-[900px] mx-auto h-[260px] md:h-[420px] object-cover object-[center_20%] rounded-[24px] shadow-card my-8" />
         <div className="prose max-w-[760px] mx-auto" dangerouslySetInnerHTML={{ __html: p.html }} />
         {p.faq && p.faq.length > 0 && (
           <section className="max-w-[760px] mx-auto mt-10">

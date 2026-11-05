@@ -106,7 +106,7 @@ export function Tiles({ items, tint = false }: { items: Tile[]; tint?: boolean }
 
 /* ---------- "what's included" ---------- */
 
-export function Included({ title, intro, items, img, alt, imgPos = "object-center" }: { title: React.ReactNode; intro?: string; items: string[]; img: ImgName; alt: string; imgPos?: string }) {
+export function Included({ title, intro, items, img, alt, imgPos = "object-[center_25%]" }: { title: React.ReactNode; intro?: string; items: string[]; img: ImgName; alt: string; imgPos?: string }) {
   return (
     <section className="wrap py-14 md:py-20 grid lg:grid-cols-[0.9fr_1.1fr] gap-8 items-center">
       <Img name={img} alt={alt} sizes="(min-width: 1024px) 45vw, 100vw" className={`w-full h-[280px] lg:h-[400px] object-cover ${imgPos} rounded-[24px] shadow-card`} />
@@ -151,9 +151,9 @@ const services: { key: Service; icon: IconName; t: string; d: string; href: stri
   { key: "cat", icon: "cat", t: "Cat grooming", d: "Gentle, cat-specific grooming in our mobile cat spa.", href: "/cat-grooming/" },
 ];
 const serviceImg: Record<Service, { img: ImgName; alt: string; pos: string }> = {
-  mobile: { img: "van-goldendoodle-bandana", alt: "A red Goldendoodle in a bandana after a groom in the van", pos: "object-[center_30%]" },
-  salon: { img: "salon-poodle-apricot", alt: "An apricot Standard Poodle at the salon", pos: "object-[center_30%]" },
-  cat: { img: "cat-persian-salon", alt: "A black-and-white Persian cat on the grooming table", pos: "object-[center_40%]" },
+  mobile: { img: "van-goldendoodle-bandana", alt: "A red Goldendoodle in a bandana after a groom in the van", pos: "object-[center_12%]" },
+  salon: { img: "salon-poodle-apricot", alt: "An apricot Standard Poodle at the salon", pos: "object-[center_8%]" },
+  cat: { img: "cat-persian-salon", alt: "A black-and-white Persian cat on the grooming table", pos: "object-[center_30%]" },
 };
 
 export function ServiceCards({ placement }: { placement: string }) {
@@ -162,7 +162,7 @@ export function ServiceCards({ placement }: { placement: string }) {
       <ul className="m-0 p-0 list-none grid md:grid-cols-3 gap-5">
         {services.map((s) => (
           <li key={s.key} className="card overflow-hidden flex flex-col gap-3 items-start">
-            <Img name={serviceImg[s.key].img} alt={serviceImg[s.key].alt} sizes="(min-width: 768px) 33vw, 100vw" className={`w-full h-[220px] object-cover ${serviceImg[s.key].pos}`} />
+            <Img name={serviceImg[s.key].img} alt={serviceImg[s.key].alt} sizes="(min-width: 768px) 33vw, 100vw" className={`w-full h-[260px] object-cover ${serviceImg[s.key].pos}`} />
             <div className="p-6 md:p-7 pt-2 flex flex-col gap-3 items-start flex-1 w-full">
             <span className="icon-tile"><Icon name={s.icon} /></span>
             <strong className="disp text-[22px]">{s.t}</strong>
@@ -263,7 +263,7 @@ export function Gallery({ title = <>Fresh off <span className="accent">the table
       <ul className="m-0 p-0 list-none grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
         {items.slice(0, 8).map((g) => (
           <li key={g.img} className="rounded-[20px] overflow-hidden shadow-card aspect-square bg-white">
-            <Img name={g.img} alt={g.alt} sizes="(min-width: 768px) 25vw, 50vw" className="w-full h-full object-cover" />
+            <Img name={g.img} alt={g.alt} sizes="(min-width: 768px) 25vw, 50vw" className="w-full h-full object-cover object-[center_18%]" />
           </li>
         ))}
       </ul>
