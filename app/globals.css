@@ -24,7 +24,7 @@
   .kick { @apply font-display font-bold uppercase tracking-[0.16em] text-[12px] text-ink-soft; }
   .wrap { @apply max-w-wrap mx-auto px-5 md:px-10; }
   .btn { @apply inline-flex items-center justify-center gap-2 min-h-[48px] px-6 rounded-full font-display font-bold text-[15px] no-underline border-2 border-transparent cursor-pointer transition-all duration-200; }
-  .btn-primary { @apply bg-pink text-white border-pink hover:bg-pink-dark hover:border-pink-dark hover:-translate-y-0.5; }
+  .btn-primary { @apply bg-pink-btn text-white border-pink-btn hover:bg-pink-dark hover:border-pink-dark hover:-translate-y-0.5; }
   .btn-ghost { @apply bg-white text-navy border-navy/15 hover:border-navy hover:-translate-y-0.5; }
   .btn-navy { @apply bg-navy text-white border-navy hover:bg-pink hover:border-pink; }
   .btn-sm { @apply min-h-[42px] px-5 text-[14px]; }

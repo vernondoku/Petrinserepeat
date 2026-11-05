@@ -18,7 +18,7 @@ export default function Nav() {
       <header className="sticky top-0 z-50 bg-white/92 backdrop-blur border-b border-navy/5">
         <nav className="wrap flex items-center justify-between gap-6 min-h-[70px]" aria-label="Primary">
           <Link href="/" aria-label={`${site.name} home`} className="flex items-center shrink-0">
-            <img src="/media/wordmark.png" alt={site.name} className="h-7 md:h-8 w-auto" width="1254" height="200" />
+            <img src="/media/wordmark.webp" alt={site.name} className="h-7 md:h-8 w-auto" width="527" height="84" fetchPriority="high" />
           </Link>
           <div className="hidden lg:flex items-center gap-6">
             {nav.map((n) => (

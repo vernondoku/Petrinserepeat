@@ -78,7 +78,7 @@ export function Hero({ kick, title, blurb, service, cta, secondary, img, alt, im
               <Img name={img} priority alt={alt} sizes="(min-width: 1024px) 50vw, 100vw" className={`hidden motion-reduce:block w-full h-full object-cover ${imgPos}`} />
             </div>
           ) : (
-            <Img name={img} priority alt={alt} sizes="(min-width: 1024px) 50vw, 100vw" className={`w-full h-[300px] md:h-[440px] object-cover ${imgPos} rounded-[24px] shadow-lift`} />
+            <Img name={img} priority alt={alt} sizes="(min-width: 1024px) 560px, calc(100vw - 32px)" className={`w-full h-[300px] md:h-[440px] object-cover ${imgPos} rounded-[24px] shadow-lift`} />
           )}
         </div>
       </div>
@@ -109,7 +109,7 @@ export function Tiles({ items, tint = false, overlap = true }: { items: Tile[]; 
 export function Included({ title, intro, items, img, alt, imgPos = "object-[center_25%]" }: { title: React.ReactNode; intro?: string; items: string[]; img: ImgName; alt: string; imgPos?: string }) {
   return (
     <section className="wrap py-14 md:py-20 grid lg:grid-cols-[0.9fr_1.1fr] gap-8 items-center">
-      <Img name={img} alt={alt} sizes="(min-width: 1024px) 45vw, 100vw" className={`w-full h-[280px] lg:h-[400px] object-cover ${imgPos} rounded-[24px] shadow-card`} />
+      <Img name={img} alt={alt} sizes="(min-width: 1024px) 520px, calc(100vw - 32px)" className={`w-full h-[280px] lg:h-[400px] object-cover ${imgPos} rounded-[24px] shadow-card`} />
       <div className="flex flex-col gap-4">
         <h2 className="disp text-[30px] md:text-[38px] m-0">{title}</h2>
         {intro && <p className="text-ink-soft leading-relaxed m-0">{intro}</p>}
@@ -132,7 +132,7 @@ export function Steps({ title, steps }: { title: string; steps: Step[] }) {
         <ol className="m-0 p-0 list-none grid md:grid-cols-3 gap-6 md:gap-4">
           {steps.map((s, i) => (
             <li key={s.t} className="flex gap-4 items-start relative">
-              <span className="inline-flex w-11 h-11 rounded-full bg-pink text-white items-center justify-center shrink-0 font-display font-extrabold">{i + 1}</span>
+              <span className="inline-flex w-11 h-11 rounded-full bg-pink-btn text-white items-center justify-center shrink-0 font-display font-extrabold">{i + 1}</span>
               <div><strong className="block text-navy mb-0.5">{s.t}</strong><span className="text-ink-soft text-[15px] leading-snug">{s.d}</span></div>
               {i < steps.length - 1 && <span aria-hidden="true" className="hidden md:block absolute right-0 top-4 text-pink/60 text-xl">→</span>}
             </li>
@@ -162,14 +162,14 @@ export function ServiceCards({ placement }: { placement: string }) {
       <ul className="m-0 p-0 list-none grid md:grid-cols-3 gap-5">
         {services.map((s) => (
           <li key={s.key} className="card overflow-hidden flex flex-col gap-3 items-start">
-            <Img name={serviceImg[s.key].img} alt={serviceImg[s.key].alt} sizes="(min-width: 768px) 33vw, 100vw" className={`w-full h-[260px] object-cover ${serviceImg[s.key].pos}`} />
+            <Img name={serviceImg[s.key].img} alt={serviceImg[s.key].alt} sizes="(min-width: 1024px) 380px, (min-width: 768px) 33vw, calc(100vw - 32px)" className={`w-full h-[260px] object-cover ${serviceImg[s.key].pos}`} />
             <div className="p-6 md:p-7 pt-2 flex flex-col gap-3 items-start flex-1 w-full">
             <span className="icon-tile"><Icon name={s.icon} /></span>
             <strong className="disp text-[22px]">{s.t}</strong>
             <p className="text-ink-soft m-0 leading-snug flex-1">{s.d}</p>
             <div className="flex flex-wrap gap-2 pt-1">
               <BookButton service={s.key} placement={`${placement}_${s.key}`} className="btn-sm">Book now</BookButton>
-              <Link href={s.href} className="btn btn-ghost btn-sm">Learn more</Link>
+              <Link href={s.href} className="btn btn-ghost btn-sm">About {s.t.toLowerCase()}</Link>
             </div>
             </div>
           </li>

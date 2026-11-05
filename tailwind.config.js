@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        pink: { DEFAULT: "#E5308D", dark: "#BF1E72", soft: "#FCE4F0", tint: "#FFF1F7" },
+        pink: { DEFAULT: "#E5308D", btn: "#D4267F", dark: "#BF1E72", soft: "#FCE4F0", tint: "#FFF1F7" },
         sky: { DEFAULT: "#2FB2E6", dark: "#1C86B5", soft: "#E3F5FC", tint: "#F3FAFE" },
         navy: { DEFAULT: "#1E2A47", deep: "#141D33" },
         sun: { DEFAULT: "#F7B733", soft: "#FFF1CF" },
