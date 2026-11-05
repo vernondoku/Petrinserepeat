@@ -28,6 +28,7 @@ review:
   - "Confirm the pre-arrival prep is accurate and complete: potty break, no big meal right before, remove collar/harness accessories, clear a path to the van, keep other pets inside."
   - "Does the groomer give an aftercare or coat-condition rundown at hand-off? The post says they will tell you how it went and flag anything they noticed; confirm this is routine."
 draft: true
+hidden: true
 ---
 Mobile dog grooming is simple once you have done it, but the first time raises a lot of small questions. Do I need to be home? Where does the van park? When do I pay? This post walks through a Pet Rinse Repeat mobile appointment from booking to rebooking so you know exactly what is coming.
 

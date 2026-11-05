@@ -22,6 +22,7 @@ review:
   - "Amy: review the home-care guidance for double coats (undercoat rake or deshedding tool 1–2 times a week, more in spring and fall; brush before baths; dry fully) and the advice against shaving double coats."
   - "Confirm it's fine to tell readers to enter breed, weight, and coat notes in the online booking form, or whether that info is collected another way."
 draft: true
+hidden: true
 ---
 A lot of people book "a groom" without knowing there are really three different services under that word: a bath & brush, a deshed, and a haircut. Pick the wrong one and you either pay for things your dog doesn't need or walk out with a dog that's still leaving fur on the couch.
 

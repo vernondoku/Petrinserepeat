@@ -22,6 +22,7 @@ review:
   - "The post says the groomer will tell you if a groom is running longer than expected before it affects the price. Is that actually PRR's practice? If not, delete that sentence."
   - "Confirm it is OK to show a worked example (medium doodle, 1.5 hours: mobile $140/hr = $210 + $20 travel = $230; salon $120/hr = $180) labeled clearly as an illustration, not a quote. If not, delete the paragraph."
 draft: true
+hidden: true
 ---
 If you have looked for dog grooming prices in Kansas City, you have probably noticed that nobody gives a straight number. That is not groomers being cagey. A ten-pound Maltese with a well-kept coat and a ninety-pound Goldendoodle who skipped a few brushings are very different jobs, and pricing them the same would be unfair to one of them.
 

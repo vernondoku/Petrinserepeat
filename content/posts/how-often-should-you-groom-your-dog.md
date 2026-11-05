@@ -19,6 +19,7 @@ review:
   - "FACTS says mobile clients keep a recurring 4-, 6-, or 8-week schedule. Does the salon also set clients up on a recurring schedule, and if so at the same intervals? The post currently only states this for mobile."
   - "Confirm it's accurate to say the groomer will recommend an interval at the end of the first appointment (the post says 'ask your groomer at the end of the visit')."
 draft: true
+hidden: true
 ---
 If you've ever searched "how often should you groom your dog," you've probably found a dozen different answers. That's because there isn't one. A Boxer and a Goldendoodle living in the same Kansas City house have completely different grooming needs, and even two Goldendoodles can land on different schedules depending on how long their owners like the coat and how much brushing happens at home.
 

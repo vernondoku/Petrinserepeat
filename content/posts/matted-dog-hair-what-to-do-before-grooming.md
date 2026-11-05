@@ -21,6 +21,7 @@ review:
   - "Confirm the post's statement that a matted dog can be booked in either the van or the salon, and whether there are cases where PRR routes matted dogs to the salon specifically."
   - "Confirm the mobile booking lead time (1–3 weeks depending on area) is still accurate and appropriate to mention here, since matted dogs often need a sooner appointment."
 draft: true
+hidden: true
 ---
 You went to brush your dog and the brush stopped. Maybe behind the ears, maybe under the collar, maybe you found a whole felted patch on a back leg you didn't know was there. First: this happens to a lot of careful owners, especially with doodles, Shih Tzus, Maltese, and other coats that grow continuously. Second: your groomer has seen far worse and is not going to lecture you.
 

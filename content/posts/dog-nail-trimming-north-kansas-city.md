@@ -24,6 +24,7 @@ review:
   - "Amy to review the description of how groomers handle nervous paws (slow approach, breaks, dremel vs. clippers, stopping if unsafe) and whether to mention that a trim may be partial on a difficult dog and how that is charged."
   - "Confirm the general guidance 'most dogs need nails trimmed roughly every 3–6 weeks' is something Amy is comfortable publishing as hedged, non-medical guidance."
 draft: true
+hidden: true
 ---
 Nail trims are the chore most dog owners put off. The dog hates it, you're afraid of cutting too short, and before long you can hear clicking on the kitchen floor. If that sounds familiar, you're in good company, and it's exactly why a quick trip to a groomer for nails alone is one of the most common things people book.
 

@@ -23,6 +23,7 @@ review:
   - "The post says 'we don't make sedation recommendations; that's a conversation for your vet.' Confirm the team is comfortable with that wording and does not want to add more."
   - "Confirm no staff certifications or 'fear-free' language is wanted. The post makes no credential claims."
 draft: true
+hidden: true
 ---
 Some dogs love the groomer. Plenty don't. If your dog shakes in the car, hides when the clippers come out, or has had a rough grooming experience somewhere else, you already know a "normal" appointment isn't going to be normal for you.
 

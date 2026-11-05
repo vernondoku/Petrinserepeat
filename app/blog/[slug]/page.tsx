@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Img from "@/components/Img";
 import BookButton from "@/components/BookButton";
-import { getPosts, getPost } from "@/lib/posts";
+import { getPosts, getPost, getListedPosts } from "@/lib/posts";
 import { site } from "@/data/site";
 
 export function generateStaticParams() { return getPosts().map((p) => ({ slug: p.slug })); }
@@ -20,16 +20,17 @@ const serviceHref: Record<string, string> = { mobile: "/mobile-grooming/", salon
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params; const p = getPost(slug);
   if (!p) notFound();
-  const others = getPosts().filter((x) => x.slug !== p.slug).slice(0, 3);
+  const others = getListedPosts().filter((x) => x.slug !== p.slug).slice(0, 3);
   const schema = {
     "@context": "https://schema.org", "@type": "BlogPosting", headline: p.title, description: p.description, datePublished: p.date, dateModified: p.date,
     mainEntityOfPage: `${site.url}/blog/${p.slug}/`, image: `${site.url}/media/${p.image}.jpg`,
     author: { "@type": "Organization", name: site.name }, publisher: { "@type": "Organization", name: site.name, logo: { "@type": "ImageObject", url: `${site.url}/media/logo-groomery.png` } },
   };
+  const faqSchema = p.faq && p.faq.length > 0 ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: p.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) } : null;
   const date = new Date(p.date + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema ? [schema, faqSchema] : schema) }} />
       <article className="wrap pt-10 md:pt-14 pb-16">
         <div className="max-w-[760px] mx-auto">
           <p className="text-sm text-ink-soft m-0 mb-3"><Link href="/blog/" className="text-pink font-semibold">Blog</Link> · {date} · {p.readMinutes} min read</p>
@@ -38,6 +39,25 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         </div>
         <Img name={p.image} alt={p.imageAlt} priority sizes="(min-width: 1024px) 900px, 100vw" className="w-full max-w-[900px] mx-auto h-[260px] md:h-[420px] object-cover rounded-[24px] shadow-card my-8" />
         <div className="prose max-w-[760px] mx-auto" dangerouslySetInnerHTML={{ __html: p.html }} />
+        {p.faq && p.faq.length > 0 && (
+          <section className="max-w-[760px] mx-auto mt-10">
+            <h2 className="disp text-[26px] md:text-[30px] m-0 mb-4">Frequently asked</h2>
+            <dl className="m-0 grid gap-3">
+              {p.faq.map((f) => (
+                <div key={f.q} className="card p-5">
+                  <dt className="font-display font-bold text-navy text-[17px] m-0">{f.q}</dt>
+                  <dd className="m-0 mt-1.5 text-ink-soft text-[15px] leading-relaxed">{f.a}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )}
+        {p.sources && p.sources.length > 0 && (
+          <section className="max-w-[760px] mx-auto mt-10 text-sm text-ink-soft">
+            <p className="kick m-0 mb-2">Sources</p>
+            <ul className="m-0 pl-5 list-disc grid gap-1">{p.sources.map((s) => <li key={s.url}><a href={s.url} target="_blank" rel="noopener nofollow" className="hover:text-pink">{s.title}</a></li>)}</ul>
+          </section>
+        )}
         <div className="max-w-[760px] mx-auto mt-10 card p-6 md:p-8 flex flex-col md:flex-row md:items-center gap-4">
           <div className="flex-1"><p className="kick m-0">Next step</p><p className="disp text-[22px] m-0">Pick a time online — it takes about two minutes.</p><p className="text-ink-soft m-0 mt-1 text-[15px]">Or call <a href={site.phoneHref} className="text-pink font-semibold">{site.phone}</a>. See <Link href="/pricing/" className="text-pink font-semibold">pricing</Link> or the <Link href={serviceHref[p.service]} className="text-pink font-semibold">service page</Link>.</p></div>
           <BookButton service={p.service} placement={`blog_${p.slug}`}>{p.cta}</BookButton>

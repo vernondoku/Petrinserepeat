@@ -22,6 +22,7 @@ review:
   - "Is the salon or mobile the better first stop for most puppies in Amy's view? The post leans salon for the intro visit because the $40 desensitizing option only exists there — confirm that's the routing you want."
   - "Amy to review the at-home handling tips (paws, ears, brush, dryer sounds) for anything she'd change."
 draft: true
+hidden: true
 ---
 Bringing a puppy to the groomer for the first time is a bigger deal than it looks. The haircut is the easy part. What actually matters is whether your puppy walks out thinking "that was fine" or "never again," because that first impression tends to stick for years.
 

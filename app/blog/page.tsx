@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Img from "@/components/Img";
 import { FinalCTA } from "@/components/sections";
-import { getPosts } from "@/lib/posts";
+import { getListedPosts } from "@/lib/posts";
 
 export const metadata: Metadata = { title: "Grooming tips & guides", description: "Plain-language answers from Pet Rinse Repeat: what grooming costs in Kansas City, mobile vs. salon, how often to groom, doodles, matting, desheds, puppies, anxious dogs, and nail care.", alternates: { canonical: "/blog/" } };
 
 export default function Page() {
-  const posts = getPosts();
+  const posts = getListedPosts();
   return (
     <>
       <section className="wrap pt-12 md:pt-16 pb-8">

@@ -22,6 +22,7 @@ review:
   - "What is PRR's process when a doodle arrives too matted for the requested style? Does the groomer call the owner before changing the plan? The post says the groomer will 'talk through options with you' and does not describe a formal consent step."
   - "The brief asks for real PRR doodle photos showing different finishes. This draft uses an existing site photo only. If finish photos are added later, confirm client permission for each."
 draft: true
+hidden: true
 ---
 Goldendoodles, Labradoodles, Bernedoodles, Aussiedoodles. Kansas City is full of them, and they've become one of the most common dogs on our grooming schedule. They're also one of the most misunderstood when it comes to coat care. A lot of new doodle owners expect a low-maintenance dog and end up surprised by how much brushing a fluffy coat takes.
 

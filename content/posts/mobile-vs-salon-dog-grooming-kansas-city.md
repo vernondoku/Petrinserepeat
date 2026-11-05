@@ -26,6 +26,7 @@ review:
   - "Confirm the MoeGo booking flows (mobile and salon) actually collect breed, size, coat, and behavior information at booking, as the post states. Adjust the wording if the intake fields differ."
   - "Confirm whether salon clients can be set up on a recurring schedule or only book as needed; the comparison table says 'Book as needed or recurring'."
 draft: true
+hidden: true
 ---
 Pet Rinse Repeat runs both a mobile grooming van and a salon in North Kansas City, and we get asked which one is "better" more than almost anything else. The honest answer is that they are good at different things. The right choice depends on your dog, your schedule, where you live, and what you want the appointment to feel like.
 
