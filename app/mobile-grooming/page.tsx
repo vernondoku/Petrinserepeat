@@ -23,7 +23,7 @@ export default function Page() {
       ]} />
       <Included title={<>A full refresh, <span className="accent">right outside.</span></>}
         items={["Breed-appropriate haircut", "Bath & blow dry", "De-shedding (as needed)", "Ear cleaning", "Sanitary trim", "Nail trim (add-on)"]}
-        img="van-interior" alt="Grooming table and lighting inside the Pet Rinse Repeat van" />
+        img="dog-cavalier-tub" alt="A Cavalier peeking over the edge of the tub, mid-bath" imgPos="object-[center_35%]" />
       <Steps title="Booking mobile grooming is simple." steps={[
         { icon: "chat", t: "Tell us about your pet", d: "Share a few details and your location." },
         { icon: "calendar", t: "Pick your time", d: "Choose from real availability for your area." },
