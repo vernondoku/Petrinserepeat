@@ -89,9 +89,9 @@ export function Hero({ kick, title, blurb, service, cta, secondary, img, alt, im
 /* ---------- three benefit tiles ---------- */
 
 export type Tile = { icon: IconName; t: string; d: string };
-export function Tiles({ items, tint = false }: { items: Tile[]; tint?: boolean }) {
+export function Tiles({ items, tint = false, overlap = true }: { items: Tile[]; tint?: boolean; overlap?: boolean }) {
   return (
-    <section className="wrap -mt-6 md:-mt-8 mb-10 relative z-10">
+    <section className={`wrap ${overlap ? "-mt-6 md:-mt-8" : "mt-6"} mb-10 relative z-10`}>
       <ul className="m-0 p-0 list-none grid sm:grid-cols-3 gap-4">
         {items.map((it) => (
           <li key={it.t} className="card p-5 flex gap-4 items-start">
