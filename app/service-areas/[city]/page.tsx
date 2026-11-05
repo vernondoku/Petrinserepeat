@@ -207,8 +207,8 @@ export default async function Page({ params }: { params: Promise<{ city: string 
       <section className="wrap pb-16">
         <p className="kick m-0">We serve the greater Kansas City metro</p>
         <div className="grid md:grid-cols-2 gap-6 mt-3">
-          <div><h2 className="disp text-[20px] m-0 mb-2">Missouri</h2><ul className="m-0 p-0 list-none flex flex-wrap gap-x-4 gap-y-1 text-[15px]">{mo.map((x) => <li key={x.slug}><Link href={`/service-areas/${x.slug}/`} className={x.slug === c.slug ? "text-pink font-bold" : "text-navy hover:text-pink"}>{x.name}</Link></li>)}</ul></div>
-          <div><h2 className="disp text-[20px] m-0 mb-2">Kansas</h2><ul className="m-0 p-0 list-none flex flex-wrap gap-x-4 gap-y-1 text-[15px]">{ks.map((x) => <li key={x.slug}><Link href={`/service-areas/${x.slug}/`} className={x.slug === c.slug ? "text-pink font-bold" : "text-navy hover:text-pink"}>{x.name}</Link></li>)}</ul></div>
+          <div><h2 className="disp text-[20px] m-0 mb-2">Missouri</h2><ul className="m-0 p-0 list-none flex flex-wrap gap-2">{mo.map((x) => <li key={x.slug}><Link href={`/service-areas/${x.slug}/`} className={`inline-flex items-center min-h-[40px] px-3.5 rounded-full border text-[14px] font-semibold no-underline ${x.slug === c.slug ? "bg-pink text-white border-pink" : "bg-white text-navy border-navy/10 hover:border-pink hover:text-pink"}`}>{x.name}</Link></li>)}</ul></div>
+          <div><h2 className="disp text-[20px] m-0 mb-2">Kansas</h2><ul className="m-0 p-0 list-none flex flex-wrap gap-2">{ks.map((x) => <li key={x.slug}><Link href={`/service-areas/${x.slug}/`} className={`inline-flex items-center min-h-[40px] px-3.5 rounded-full border text-[14px] font-semibold no-underline ${x.slug === c.slug ? "bg-pink text-white border-pink" : "bg-white text-navy border-navy/10 hover:border-pink hover:text-pink"}`}>{x.name}</Link></li>)}</ul></div>
         </div>
       </section>
     </>

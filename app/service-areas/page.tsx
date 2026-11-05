@@ -16,8 +16,8 @@ export default function Page() {
         {[["Missouri", mo], ["Kansas", ks]].map(([label, list]) => (
           <div key={label as string} className="card p-6 md:p-8">
             <h2 className="disp text-[24px] m-0 mb-4">{label as string}</h2>
-            <ul className="m-0 p-0 list-none grid grid-cols-2 gap-y-2">
-              {(list as typeof cities).map((c) => <li key={c.slug}><Link href={`/service-areas/${c.slug}/`} className="text-navy font-semibold hover:text-pink">{c.name}</Link></li>)}
+            <ul className="m-0 p-0 list-none flex flex-wrap gap-2">
+              {(list as typeof cities).map((c) => <li key={c.slug}><Link href={`/service-areas/${c.slug}/`} className="inline-flex items-center gap-1.5 min-h-[44px] px-4 rounded-full bg-lavender border border-navy/10 text-navy font-semibold text-[15px] hover:border-pink hover:text-pink active:bg-pink-soft no-underline">{c.name} <span aria-hidden="true" className="text-pink">→</span></Link></li>)}
             </ul>
           </div>
         ))}
