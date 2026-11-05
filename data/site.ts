@@ -171,7 +171,6 @@ export const salonPricing: { group: string; items: Rate[] }[] = [
     { name: "Paw pads", rate: 20, per: "flat" },
     { name: "Nail care", rate: 20, per: "flat" },
     { name: "Ear cleaning", rate: 15, per: "flat" },
-    { name: "Extra scissoring work", rate: 15, per: "flat" },
   ] },
   { group: "Salon cat grooming", items: [
     { name: "Cuddle Me Kitty Teddy Bear Glow Up", rate: 230, per: "flat", note: "medium & long coats" },
