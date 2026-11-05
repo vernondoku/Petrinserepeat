@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Hero, Tiles, Steps, FAQ, FinalCTA } from "@/components/sections";
 import { cities, site, pricingRules } from "@/data/site";
+import cityContent from "@/data/cities-content.json";
 
 export function generateStaticParams() { return cities.map((c) => ({ city: c.slug })); }
 export const dynamicParams = false;
@@ -21,6 +22,8 @@ export default async function Page({ params }: { params: Promise<{ city: string 
   const { city } = await params; const c = cities.find((x) => x.slug === city);
   if (!c) notFound();
   const where = `${c.name}, ${c.state}`;
+  const local = (cityContent as { slug: string; neighborhoods: string[]; landmarks: string[] }[]).find((x) => x.slug === c.slug);
+  const hoods = local?.neighborhoods ?? []; const marks = local?.landmarks ?? [];
   return (
     <>
       <Hero kick={`Mobile grooming in ${where}`} title={<>Their spa.<br /><span className="accent">Your {c.name} driveway.</span></>}
@@ -50,6 +53,14 @@ export default async function Page({ params }: { params: Promise<{ city: string 
           <Link href="/salon-grooming/" className="btn btn-ghost btn-sm self-start">Salon grooming</Link>
         </div>
       </section>
+      {(hoods.length > 0 || marks.length > 0) && (
+        <section className="wrap pb-14">
+          <div className="card-tint p-6 md:p-8 grid md:grid-cols-2 gap-6">
+            {hoods.length > 0 && <div><h2 className="disp text-[22px] m-0 mb-3">Neighborhoods we serve in {c.name}</h2><ul className="m-0 p-0 list-none grid grid-cols-2 gap-y-1.5 text-navy font-semibold">{hoods.map((h) => <li key={h}>{h}</li>)}</ul></div>}
+            {marks.length > 0 && <div><h2 className="disp text-[22px] m-0 mb-3">Out and about in {c.name}</h2><p className="text-ink-soft m-0 text-[15px] mb-2">Fresh groom, then a walk:</p><ul className="m-0 p-0 list-none grid gap-y-1.5 text-navy font-semibold">{marks.map((m) => <li key={m}>{m}</li>)}</ul></div>}
+          </div>
+        </section>
+      )}
       <Steps title={`Booking in ${c.name} is simple.`} steps={[
         { icon: "chat", t: "Tell us about your pet", d: "Share a few details and your address." },
         { icon: "calendar", t: "Pick your time", d: `Choose from real availability for ${c.name}.` },

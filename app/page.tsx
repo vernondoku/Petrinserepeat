@@ -1,4 +1,4 @@
-import { Hero, Tiles, ServiceCards, Included, Steps, TrustStrip, FAQ, FinalCTA } from "@/components/sections";
+import { Hero, Tiles, ServiceCards, Included, Steps, TrustStrip, Reviews, FAQ, FinalCTA } from "@/components/sections";
 
 export default function Page() {
   return (
@@ -23,6 +23,7 @@ export default function Page() {
         { icon: "calendar", t: "Choose a time", d: "See real availability and grab the slot that works for you." },
         { icon: "van", t: "We take it from there", d: "Your groomer comes to you, or you drop by the salon. Fresh, clean, happy." },
       ]} />
+      <Reviews />
       <FAQ />
       <FinalCTA service="mobile" placement="home_final" />
     </>

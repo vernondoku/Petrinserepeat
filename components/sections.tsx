@@ -2,6 +2,7 @@ import Link from "next/link";
 import Img from "./Img";
 import BookButton from "./BookButton";
 import { site, faqs as defaultFaqs, type Service, type ImgName } from "@/data/site";
+import { reviews } from "@/data/reviews";
 
 /* ---------- small bits ---------- */
 
@@ -175,6 +176,30 @@ export function FAQ({ items = defaultFaqs, title = "Questions, answered" }: { it
         ))}
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: items.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }} />
+    </section>
+  );
+}
+
+/* ---------- reviews ---------- */
+
+export function Reviews() {
+  const g = site.google.salon;
+  return (
+    <section className="wrap py-14 md:py-20">
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+        <div><p className="kick m-0">Hear from our clients</p><h2 className="disp text-[30px] md:text-[38px] m-0">Happy pets, <span className="accent">happy people.</span></h2></div>
+        <a href={g.url} target="_blank" rel="noopener" className="text-navy font-semibold hover:text-pink">{g.rating} ★ · {g.reviewCount.toLocaleString()} Google reviews →</a>
+      </div>
+      <ul className="m-0 p-0 list-none grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {reviews.slice(0, 4).map((r) => (
+          <li key={r.name} className="card p-5 flex flex-col gap-3">
+            <span aria-hidden="true" className="text-sun tracking-[2px]">★★★★★</span>
+            <p className="m-0 text-navy leading-relaxed flex-1">&ldquo;{r.text}&rdquo;</p>
+            <span className="text-sm text-ink-soft font-semibold">{r.name}{r.service && <span className="font-normal"> · {r.service}</span>}</span>
+          </li>
+        ))}
+      </ul>
+      <p className="text-xs text-ink-soft mt-3 m-0">Quotes from public Google reviews.</p>
     </section>
   );
 }

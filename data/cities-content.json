@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "basehor-ks",
+    "neighborhoods": ["Downtown Basehor", "Cedar Creek", "Woodland Hills", "Silver Creek"],
+    "landmarks": [],
+    "localNote": null
+  },
+  {
+    "slug": "blue-springs-mo",
+    "neighborhoods": ["Downtown Blue Springs", "Lake Tapawingo Area", "Stone Canyon", "Chapman Farms"],
+    "landmarks": ["Lake Remembrance", "Burr Oak Woods Conservation Area", "Downtown Blue Springs", "Blue Springs Farmers Market"],
+    "localNote": null
+  },
+  {
+    "slug": "bonner-springs-ks",
+    "neighborhoods": [],
+    "landmarks": [],
+    "localNote": null
+  },
+  {
+    "slug": "fairway-ks",
+    "neighborhoods": [],
+    "landmarks": [],
+    "localNote": null
+  },
+  {
+    "slug": "gladstone-mo",
+    "neighborhoods": ["Downtown Gladstone", "Woods Edge"],
+    "landmarks": ["Oak Grove Park", "Gladstone Community Center", "The Heights Family Aquatic Center", "Arboretum at the Gladstone Library"],
+    "localNote": null
+  },
+  {
+    "slug": "grandview-mo",
+    "neighborhoods": ["Downtown Grandview", "Longview Lake Area", "Meadowmere"],
+    "landmarks": ["Longview Lake", "Downtown Grandview", "Meadowmere Park", "The View Community Center"],
+    "localNote": null
+  },
+  {
+    "slug": "independence-mo",
+    "neighborhoods": [],
+    "landmarks": [],
+    "localNote": null
+  },
+  {
+    "slug": "kansas-city-ks",
+    "neighborhoods": ["Downtown Kansas City, KS"],
+    "landmarks": ["Kansas Speedway", "Legends Outlets Kansas City", "Wyandotte County Lake Park"],
+    "localNote": null
+  },
+  {
+    "slug": "kansas-city-mo",
+    "neighborhoods": ["Downtown Kansas City", "Crown Center", "Brookside", "Westport"],
+    "landmarks": ["National WWI Museum and Memorial", "Nelson-Atkins Museum of Art", "Kansas City Zoo", "Union Station", "Kansas City Power & Light District"],
+    "localNote": null
+  },
+  {
+    "slug": "lees-summit-mo",
+    "neighborhoods": ["Downtown Lee's Summit", "Lakewood", "Longview Farms"],
+    "landmarks": ["Longview Lake", "Legacy Park", "Lee's Summit Farmers Market", "Downtown Lee's Summit", "Summit Fair"],
+    "localNote": null
+  },
+  {
+    "slug": "lenexa-ks",
+    "neighborhoods": ["Old Town Lenexa", "Lenexa Hills", "Lenexa City Center"],
+    "landmarks": ["Shawnee Mission Park", "Old Town Lenexa", "Lenexa Farmers Market"],
+    "localNote": null
+  },
+  {
+    "slug": "liberty-mo",
+    "neighborhoods": ["Downtown Liberty", "South Liberty", "Green Acres", "Liberty Hills"],
+    "landmarks": ["Liberty Jail Historic Site", "Jesse James Bank Museum", "Liberty Community Center"],
+    "localNote": null
+  },
+  {
+    "slug": "merriam-ks",
+    "neighborhoods": ["Downtown Merriam"],
+    "landmarks": ["Antioch Park", "Turkey Creek Streamway Trail", "Merriam Marketplace"],
+    "localNote": null
+  },
+  {
+    "slug": "mission-ks",
+    "neighborhoods": ["Downtown Mission"],
+    "landmarks": ["Downtown Mission", "Streamway Park", "Johnson Drive Corridor"],
+    "localNote": null
+  },
+  {
+    "slug": "north-kansas-city-mo",
+    "neighborhoods": ["Downtown North Kansas City"],
+    "landmarks": [],
+    "localNote": null
+  },
+  {
+    "slug": "olathe-ks",
+    "neighborhoods": ["Downtown Olathe", "Olathe West", "Olathe South"],
+    "landmarks": ["Downtown Olathe", "Olathe Soccer Complex"],
+    "localNote": null
+  },
+  {
+    "slug": "overland-park-ks",
+    "neighborhoods": ["Downtown Overland Park", "Oak Park", "College Boulevard Corridor", "Indian Creek"],
+    "landmarks": [],
+    "localNote": null
+  },
+  {
+    "slug": "parkville-mo",
+    "neighborhoods": ["River Hills", "Riss Lake", "The National", "Downtown Parkville"],
+    "landmarks": ["Parkville Nature Sanctuary", "English Landing Park", "The National Golf Club of Kansas City", "Historic Downtown Parkville"],
+    "localNote": null
+  },
+  {
+    "slug": "platte-city-mo",
+    "neighborhoods": ["South Platte", "West Platte", "Platte City Heights", "Downtown Platte City"],
+    "landmarks": ["Platte City Historic Downtown"],
+    "localNote": null
+  },
+  {
+    "slug": "prairie-village-ks",
+    "neighborhoods": ["Downtown Prairie Village", "Prairie Village Shops", "Mission Road & 75th Street"],
+    "landmarks": [],
+    "localNote": null
+  },
+  {
+    "slug": "raymore-mo",
+    "neighborhoods": ["Timber Creek", "Foxwood Springs", "The Meadows", "Downtown Raymore"],
+    "landmarks": ["Timber Creek Park", "The Meadows Park"],
+    "localNote": null
+  },
+  {
+    "slug": "raytown-mo",
+    "neighborhoods": [],
+    "landmarks": [],
+    "localNote": null
+  },
+  {
+    "slug": "riverside-mo",
+    "neighborhoods": ["Riverside Acres", "The Parkway", "Riverside Village", "Stone Ridge"],
+    "landmarks": ["Riverside Park", "Missouri Riverfront Trail", "Riverside Historic District"],
+    "localNote": null
+  },
+  {
+    "slug": "shawnee-ks",
+    "neighborhoods": ["Downtown Shawnee", "Shawnee Hills"],
+    "landmarks": ["Downtown Shawnee", "Shawnee Town 1929", "Shawnee Mission Park"],
+    "localNote": null
+  },
+  {
+    "slug": "westwood-ks",
+    "neighborhoods": [],
+    "landmarks": [],
+    "localNote": null
+  }
+]

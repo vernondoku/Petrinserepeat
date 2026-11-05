@@ -1,7 +1,884 @@
 {
-  "redirects": [],
+  "redirects": [
+    {
+      "source": "/booking",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/booking/",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/luxury-pet-grooming-salon",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/luxury-pet-grooming-salon/",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/luxury-pet-grooming-salon-for-happy-healthy-pets",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/luxury-pet-grooming-salon-for-happy-healthy-pets/",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/salon-grooming-north-kansas-city",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/salon-grooming-north-kansas-city/",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-north-kansas-city-mo-pet-rinse-repeat",
+      "destination": "/service-areas/north-kansas-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-north-kansas-city-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/north-kansas-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-olathe-ks-pet-rinse-repeat",
+      "destination": "/service-areas/olathe-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-olathe-ks-pet-rinse-repeat/",
+      "destination": "/service-areas/olathe-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-overland-park-ks-pet-rinse-repeat",
+      "destination": "/service-areas/overland-park-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-overland-park-ks-pet-rinse-repeat/",
+      "destination": "/service-areas/overland-park-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-parkville-mo-pet-rinse-repeat",
+      "destination": "/service-areas/parkville-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-parkville-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/parkville-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-platte-city-mo-pet-rinse-repeat",
+      "destination": "/service-areas/platte-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-platte-city-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/platte-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-prairie-village-ks-pet-rinse-repeat",
+      "destination": "/service-areas/prairie-village-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-prairie-village-ks-pet-rinse-repeat/",
+      "destination": "/service-areas/prairie-village-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-shawnee-ks-pet-rinse-repeat",
+      "destination": "/service-areas/shawnee-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-shawnee-ks-pet-rinse-repeat/",
+      "destination": "/service-areas/shawnee-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-smithville-mo-pet-rinse-repeat",
+      "destination": "/service-areas/smithville-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-smithville-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/smithville-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-south-overland-park-ks-pet-rinse-repeat",
+      "destination": "/service-areas/overland-park-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-south-overland-park-ks-pet-rinse-repeat/",
+      "destination": "/service-areas/overland-park-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-ward-parkway-mo-pet-rinse-repeat",
+      "destination": "/service-areas/ward-parkway-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-ward-parkway-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/ward-parkway-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-zona-rosa-mo-pet-rinse-repeat",
+      "destination": "/service-areas/zona-rosa-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-zona-rosa-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/zona-rosa-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-grooming-services-in-tampa-florida",
+      "destination": "/mobile-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-grooming-services-in-tampa-florida/",
+      "destination": "/mobile-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-bonner-springs-ks",
+      "destination": "/service-areas/bonner-springs-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-bonner-springs-ks/",
+      "destination": "/service-areas/bonner-springs-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-fairway-ks",
+      "destination": "/service-areas/fairway-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-fairway-ks/",
+      "destination": "/service-areas/fairway-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-grandview-mo",
+      "destination": "/service-areas/grandview-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-grandview-mo/",
+      "destination": "/service-areas/grandview-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-independence-mo",
+      "destination": "/service-areas/independence-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-independence-mo/",
+      "destination": "/service-areas/independence-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-overland-park-ks",
+      "destination": "/service-areas/overland-park-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-overland-park-ks/",
+      "destination": "/service-areas/overland-park-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-prairie-village-ks",
+      "destination": "/service-areas/prairie-village-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-prairie-village-ks/",
+      "destination": "/service-areas/prairie-village-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-raytown-mo",
+      "destination": "/service-areas/raytown-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-raytown-mo/",
+      "destination": "/service-areas/raytown-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-westwood-ks",
+      "destination": "/service-areas/westwood-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-westwood-ks/",
+      "destination": "/service-areas/westwood-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-blue-springs-mo-pet-rinse-repeat",
+      "destination": "/service-areas/blue-springs-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-blue-springs-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/blue-springs-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-brookside-mo-pet-rinse-repeat",
+      "destination": "/service-areas/brookside-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-brookside-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/brookside-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-independence-mo-pet-rinse-repeat",
+      "destination": "/service-areas/independence-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-independence-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/independence-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-kansas-city-north-pet-rinse-repeat",
+      "destination": "/service-areas/north-kansas-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-kansas-city-north-pet-rinse-repeat/",
+      "destination": "/service-areas/north-kansas-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-kearney-mo-pet-rinse-repeat",
+      "destination": "/service-areas/kearney-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-kearney-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/kearney-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-lansing-ks-pet-rinse-repeat",
+      "destination": "/service-areas/lansing-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-lansing-ks-pet-rinse-repeat/",
+      "destination": "/service-areas/lansing-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-leavenworth-ks-pet-rinse-repeat",
+      "destination": "/service-areas/leavenworth-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-leavenworth-ks-pet-rinse-repeat/",
+      "destination": "/service-areas/leavenworth-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-leawood-ks-pet-rinse-repeat",
+      "destination": "/service-areas/leawood-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-leawood-ks-pet-rinse-repeat/",
+      "destination": "/service-areas/leawood-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-lees-summit-mo-pet-rinse-repeat",
+      "destination": "/service-areas/lees-summit-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-lees-summit-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/lees-summit-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-liberty-mo-pet-rinse-repeat",
+      "destination": "/service-areas/liberty-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-liberty-mo-pet-rinse-repeat/",
+      "destination": "/service-areas/liberty-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-merriam-ks-pet-rinse-repeat",
+      "destination": "/service-areas/merriam-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-merriam-ks-pet-rinse-repeat/",
+      "destination": "/service-areas/merriam-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-mission-ks-pet-rinse-repeat",
+      "destination": "/service-areas/mission-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-grooming-in-mission-ks-pet-rinse-repeat/",
+      "destination": "/service-areas/mission-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-basehor-ks",
+      "destination": "/service-areas/basehor-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-basehor-ks/",
+      "destination": "/service-areas/basehor-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-gladstone-mo",
+      "destination": "/service-areas/gladstone-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-gladstone-mo/",
+      "destination": "/service-areas/gladstone-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-kansas-city-ks",
+      "destination": "/service-areas/kansas-city-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-kansas-city-ks/",
+      "destination": "/service-areas/kansas-city-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-kansas-city-mo",
+      "destination": "/service-areas/kansas-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-kansas-city-mo/",
+      "destination": "/service-areas/kansas-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-lees-summit-mo",
+      "destination": "/service-areas/lees-summit-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-lees-summit-mo/",
+      "destination": "/service-areas/lees-summit-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-lenexa-ks",
+      "destination": "/service-areas/lenexa-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-lenexa-ks/",
+      "destination": "/service-areas/lenexa-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-liberty-mo",
+      "destination": "/service-areas/liberty-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-liberty-mo/",
+      "destination": "/service-areas/liberty-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-merriam-ks",
+      "destination": "/service-areas/merriam-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-merriam-ks/",
+      "destination": "/service-areas/merriam-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-mission-ks",
+      "destination": "/service-areas/mission-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-mission-ks/",
+      "destination": "/service-areas/mission-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-north-kansas-city-mo",
+      "destination": "/service-areas/north-kansas-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-north-kansas-city-mo/",
+      "destination": "/service-areas/north-kansas-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-olathe-ks",
+      "destination": "/service-areas/olathe-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-olathe-ks/",
+      "destination": "/service-areas/olathe-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-parkville-mo",
+      "destination": "/service-areas/parkville-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-parkville-mo/",
+      "destination": "/service-areas/parkville-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-platte-city-mo",
+      "destination": "/service-areas/platte-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-platte-city-mo/",
+      "destination": "/service-areas/platte-city-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-raymore-mo",
+      "destination": "/service-areas/raymore-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-raymore-mo/",
+      "destination": "/service-areas/raymore-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-riverside-mo",
+      "destination": "/service-areas/riverside-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-riverside-mo/",
+      "destination": "/service-areas/riverside-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-shawnee-ks",
+      "destination": "/service-areas/shawnee-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-shawnee-ks/",
+      "destination": "/service-areas/shawnee-ks/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-blue-springs-mo",
+      "destination": "/service-areas/blue-springs-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-cat-grooming-in-blue-springs-mo/",
+      "destination": "/service-areas/blue-springs-mo/",
+      "permanent": true
+    },
+    {
+      "source": "/home-4",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home-4/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/grooming-spa-for-pets",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/grooming-spa-for-pets/",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-grooming-2",
+      "destination": "/mobile-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-grooming-2/",
+      "destination": "/mobile-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/cat-grooming-mobile-service-2",
+      "destination": "/cat-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/cat-grooming-mobile-service-2/",
+      "destination": "/cat-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/cat-grooming-mobile-service",
+      "destination": "/cat-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/cat-grooming-mobile-service/",
+      "destination": "/cat-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/dog-training",
+      "destination": "https://www.jogdatdog.com/dog-training/",
+      "permanent": true
+    },
+    {
+      "source": "/dog-training/",
+      "destination": "https://www.jogdatdog.com/dog-training/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-gym",
+      "destination": "https://www.jogdatdog.com/mobile-dog-gym/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-dog-gym/",
+      "destination": "https://www.jogdatdog.com/mobile-dog-gym/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/inquire-about-mobile-appointment",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/inquire-about-mobile-appointment/",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/inquire-about-salon-appointment",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/inquire-about-salon-appointment/",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/dog-grooming",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/dog-grooming/",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/grooming-career",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/grooming-career/",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/grooming",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/grooming/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-page",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-page/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/grooming-school",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/grooming-school/",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/auto-draft",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/auto-draft/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/login-form",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/login-form/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/treat-shop",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/treat-shop/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/faqs",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/faqs/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/shop",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/shop/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/gallery",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/gallery/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/inquire-for-salon-appointment",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/inquire-for-salon-appointment/",
+      "destination": "/book/",
+      "permanent": true
+    },
+    {
+      "source": "/why-its-important-to-get-your-goldendoodle-groomed",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/why-its-important-to-get-your-goldendoodle-groomed/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/how-it-works-what-to-expect-from-mobile-grooming-services",
+      "destination": "/mobile-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/how-it-works-what-to-expect-from-mobile-grooming-services/",
+      "destination": "/mobile-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/the-benefits-of-regularly-grooming-your-pets",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/the-benefits-of-regularly-grooming-your-pets/",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/understanding-dog-grooming-costs-what-to-expect-and-how-to-budget-for-your-pets-grooming-needs",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/understanding-dog-grooming-costs-what-to-expect-and-how-to-budget-for-your-pets-grooming-needs/",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/the-benefits-of-portable-pet-grooming",
+      "destination": "/mobile-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/the-benefits-of-portable-pet-grooming/",
+      "destination": "/mobile-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/prepare-your-dog-for-a-trip-to-the-groomer",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/prepare-your-dog-for-a-trip-to-the-groomer/",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/dog-park-etiquette",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dog-park-etiquette/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/the-importance-of-using-a-professional-pet-groomer",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/the-importance-of-using-a-professional-pet-groomer/",
+      "destination": "/salon-grooming/",
+      "permanent": true
+    },
+    {
+      "source": "/march-groomer-newsletter",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/march-groomer-newsletter/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tips-for-traveling-with-your-pet-this-memorial-day",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tips-for-traveling-with-your-pet-this-memorial-day/",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "headers": [
-    { "source": "/media/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
-    { "source": "/fonts/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+    {
+      "source": "/media/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
   ]
 }
