@@ -25,7 +25,7 @@ export default function Page() {
           <p className="text-ink-soft m-0 leading-relaxed">We&rsquo;re based in Kansas City, MO, and we&rsquo;re proud to be a familiar face on both sides of the state line.</p>
         </div>
         <div className="lg:col-span-2 flex flex-col gap-4">
-          <Img name="salon-storefront" alt="The Groomery & Boutique storefront on Swift Street" sizes="(min-width: 1024px) 40vw, 100vw" className="w-full h-[260px] object-cover rounded-[24px] shadow-card" />
+          <Img name="team-event" alt="A Pet Rinse Repeat groomer with a small white dog at a community event" sizes="(min-width: 1024px) 40vw, 100vw" className="w-full h-[260px] object-cover object-[center_40%] rounded-[24px] shadow-card" />
           <div className="card p-5 flex flex-col gap-2 text-[15px]">
             <span className="kick m-0">The salon</span>
             <span className="font-semibold text-navy">{site.address.street}, {site.address.city}, {site.address.state} {site.address.zip}</span>

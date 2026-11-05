@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Hero, Tiles, Steps, FAQ, FinalCTA, Icon, Reviews } from "@/components/sections";
+import { Hero, Tiles, Steps, FAQ, FinalCTA, Icon, Reviews, Gallery } from "@/components/sections";
 import Img from "@/components/Img";
 import { site, pricingRules } from "@/data/site";
 
@@ -49,6 +49,16 @@ export default function Page() {
           <Link href="/pricing/" className="btn btn-ghost btn-sm self-start">See full pricing</Link>
         </div>
       </section>
+      <Gallery kick="From the salon" items={[
+        { img: "dog-shihtzu-salon", alt: "A black-and-white Shih Tzu mix on the salon table after a trim" },
+        { img: "dog-doodle-scissor", alt: "A cream doodle getting a scissor finish on the face" },
+        { img: "cat-persian-salon", alt: "A Persian cat on the salon grooming table" },
+        { img: "dog-wheaten-bandana", alt: "A wheaten terrier mix in a bandana after a groom" },
+        { img: "dogs-doodle-lab", alt: "A chocolate doodle and a yellow Lab, both grinning" },
+        { img: "dog-shihtzu-after", alt: "A Shih Tzu after a groom at the salon" },
+        { img: "dog-cavalier-tub", alt: "A Cavalier peeking over the tub mid-bath" },
+        { img: "puppy-bow-chair", alt: "A cream puppy with a sparkly bow" },
+      ]} />
       <Reviews service="salon" title={<>What salon clients <span className="accent">are saying.</span></>} />
       <FAQ items={[
         { q: "Where are you located?", a: `${a.street}, ${a.city}, ${a.state} ${a.zip} — the storefront with the Pet Rinse Repeat window wrap.` },

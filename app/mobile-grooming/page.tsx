@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Hero, Tiles, Included, Steps, FAQ, FinalCTA, Reviews, MobilePolicies } from "@/components/sections";
+import { Hero, Tiles, Included, Steps, FAQ, FinalCTA, Reviews, MobilePolicies, Gallery } from "@/components/sections";
 import { site, cities, pricingRules } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -41,6 +41,16 @@ export default function Page() {
           <Link href="/service-areas/" className="btn btn-ghost btn-sm self-start">All service areas</Link>
         </div>
       </section>
+      <Gallery kick="Groomed in the driveway" items={[
+        { img: "dog-goldendoodle-chiefs", alt: "A Goldendoodle in a Chiefs bandana after a groom in the van" },
+        { img: "dog-sheepadoodle-van", alt: "A sheepadoodle sitting inside the van after a groom" },
+        { img: "dog-poodle-tux", alt: "A small poodle in a tuxedo harness on the van table" },
+        { img: "dog-bulldog-van", alt: "An English Bulldog on the table inside the van" },
+        { img: "dog-yorkie-hands", alt: "A Yorkie's trimmed face held in the groomer's hands" },
+        { img: "dog-yorkiemix-van", alt: "A black-and-white Yorkie mix in front of the van's logo wall" },
+        { img: "dog-yorkie-van", alt: "A Yorkie after a trim in the van" },
+        { img: "dog-shihtzu-chiefs", alt: "A Shih Tzu mix in a Chiefs bandana" },
+      ]} />
       <MobilePolicies />
       <Reviews service="mobile" title={<>Driveway grooms, <span className="accent">rave reviews.</span></>} />
       <FAQ items={[

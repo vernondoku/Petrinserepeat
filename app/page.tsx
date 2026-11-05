@@ -1,4 +1,4 @@
-import { Hero, Tiles, ServiceCards, Included, Steps, TrustStrip, Reviews, FAQ, FinalCTA } from "@/components/sections";
+import { Hero, Tiles, ServiceCards, Included, Steps, TrustStrip, Reviews, FAQ, FinalCTA, Gallery } from "@/components/sections";
 
 export default function Page() {
   return (
@@ -17,7 +17,8 @@ export default function Page() {
       <Included title={<>A full refresh, <span className="accent">right outside.</span></>}
         intro="Every full-service groom covers the basics, so your dog comes out clean, comfortable, and smelling great."
         items={["Breed-appropriate haircut", "Bath & blow dry", "De-shedding (as needed)", "Ear cleaning", "Sanitary trim", "Nail trim (add-on)"]}
-        img="van-interior" alt="Inside the grooming van: table, lighting, and the Pet Rinse Repeat logo on the wall" />
+        img="dog-doodle-salon" alt="A cream doodle on the salon table, mid-groom" imgPos="object-[center_30%]" />
+      <Gallery />
       <Steps title="Booking is simple." steps={[
         { icon: "chat", t: "Tell us about your pet", d: "Pick a service and share a few details about your dog or cat." },
         { icon: "calendar", t: "Choose a time", d: "See real availability and grab the slot that works for you." },

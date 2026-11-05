@@ -9,8 +9,8 @@ date: "2026-11-05"
 refreshes: null
 service: mobile
 cta: "Book mobile grooming"
-image: van-curbside
-imageAlt: "The Pet Rinse Repeat mobile grooming van parked at the curb of a home."
+image: dog-sheepadoodle-van
+imageAlt: "A freshly groomed sheepadoodle sitting in the Pet Rinse Repeat van"
 readMinutes: 9
 evidence:
   - "Top results for 'how to brush your dog at home' and 'prevent mats' are pet-retailer and vet-written guides (Chewy/DVM, Rover with fear-free groomers, PetsRadar/vet, Purdue canine welfare handout) built around the same sub-questions: which brush for which coat, how often, how to handle mats, and how to get the dog to tolerate it."

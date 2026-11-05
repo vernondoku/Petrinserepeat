@@ -141,18 +141,27 @@ const services: { key: Service; icon: IconName; t: string; d: string; href: stri
   { key: "salon", icon: "scissors", t: "Salon grooming", d: "A complete grooming experience at our North Kansas City salon.", href: "/salon-grooming/" },
   { key: "cat", icon: "cat", t: "Cat grooming", d: "Gentle, cat-specific grooming in our mobile cat spa.", href: "/cat-grooming/" },
 ];
+const serviceImg: Record<Service, { img: ImgName; alt: string; pos: string }> = {
+  mobile: { img: "dog-sheepadoodle-van", alt: "A freshly groomed sheepadoodle sitting inside the Pet Rinse Repeat van", pos: "object-[center_30%]" },
+  salon: { img: "dog-shihtzu-after", alt: "A Shih Tzu after a groom at the Pet Rinse Repeat salon", pos: "object-[center_35%]" },
+  cat: { img: "cat-persian-salon", alt: "A black-and-white Persian cat on the grooming table", pos: "object-[center_40%]" },
+};
+
 export function ServiceCards({ placement }: { placement: string }) {
   return (
     <section className="wrap py-14 md:py-20">
       <ul className="m-0 p-0 list-none grid md:grid-cols-3 gap-5">
         {services.map((s) => (
-          <li key={s.key} className="card p-6 md:p-7 flex flex-col gap-3 items-start">
+          <li key={s.key} className="card overflow-hidden flex flex-col gap-3 items-start">
+            <Img name={serviceImg[s.key].img} alt={serviceImg[s.key].alt} sizes="(min-width: 768px) 33vw, 100vw" className={`w-full h-[220px] object-cover ${serviceImg[s.key].pos}`} />
+            <div className="p-6 md:p-7 pt-2 flex flex-col gap-3 items-start flex-1 w-full">
             <span className="icon-tile"><Icon name={s.icon} /></span>
             <strong className="disp text-[22px]">{s.t}</strong>
             <p className="text-ink-soft m-0 leading-snug flex-1">{s.d}</p>
             <div className="flex flex-wrap gap-2 pt-1">
               <BookButton service={s.key} placement={`${placement}_${s.key}`} className="btn-sm">Book now</BookButton>
               <Link href={s.href} className="btn btn-ghost btn-sm">Learn more</Link>
+            </div>
             </div>
           </li>
         ))}
@@ -220,6 +229,35 @@ export function Reviews({ service, title, kick = "Hear from our clients" }: { se
         ))}
       </ul>
       <p className="text-xs text-ink-soft mt-3 m-0">Quotes from public Google reviews{g ? ` of ${service === "cat" ? g.label : `${site.name} ${g.label}`}` : ""}. Reviewer names as shown on Google.</p>
+    </section>
+  );
+}
+
+/* ---------- photo gallery ---------- */
+
+export const galleryDefault: { img: ImgName; alt: string }[] = [
+  { img: "dog-goldendoodle-chiefs", alt: "A Goldendoodle in a Chiefs bandana after a groom in the van" },
+  { img: "dog-shihtzu-chiefs", alt: "A black-and-white Shih Tzu mix in a Chiefs bandana" },
+  { img: "dog-poodle-tux", alt: "A small poodle in a tuxedo harness on the van's grooming table" },
+  { img: "dog-cavalier-tub", alt: "A Cavalier peeking over the edge of the tub, mid-bath" },
+  { img: "dog-yorkie-hands", alt: "A Yorkie's freshly trimmed face held gently in the groomer's hands" },
+  { img: "dog-bulldog-van", alt: "An English Bulldog on the table inside the van" },
+  { img: "dogs-doodle-lab", alt: "A chocolate doodle and a yellow Lab, both grinning" },
+  { img: "puppy-bow-chair", alt: "A cream puppy with a sparkly bow on a yellow chair" },
+];
+
+export function Gallery({ title = <>Fresh off <span className="accent">the table.</span></>, kick = "Real clients, real grooms", items = galleryDefault }: { title?: React.ReactNode; kick?: string; items?: { img: ImgName; alt: string }[] }) {
+  return (
+    <section className="wrap py-14 md:py-20">
+      <p className="kick m-0">{kick}</p>
+      <h2 className="disp text-[30px] md:text-[38px] m-0 mb-6">{title}</h2>
+      <ul className="m-0 p-0 list-none grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+        {items.slice(0, 8).map((g) => (
+          <li key={g.img} className="rounded-[20px] overflow-hidden shadow-card aspect-square bg-white">
+            <Img name={g.img} alt={g.alt} sizes="(min-width: 768px) 25vw, 50vw" className="w-full h-full object-cover" />
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }

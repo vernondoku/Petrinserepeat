@@ -16,7 +16,7 @@ export default function Page() {
       <Hero kick="Mobile cat grooming" title={<>Big purrs.<br /><span className="accent">Less fuss.</span></>}
         blurb="Gentle, cat-specific grooming that comes to you in the KC metro, from Here Kitty, our cat-only mobile service."
         service="cat" cta="Book cat grooming" secondary={{ href: "/pricing/#cat", label: "See cat pricing" }}
-        img="van-front" alt="The Pet Rinse Repeat mobile grooming van" imgPos="object-[center_45%]" placement="cat_hero" />
+        img="cat-persian-salon" alt="A black-and-white Persian cat lying calmly on the grooming table" imgPos="object-[center_40%]" placement="cat_hero" />
       <Tiles items={[
         { icon: "cat", t: "Cat-focused equipment", d: "Tools and table set up for cats, not borrowed from dogs." },
         { icon: "heart", t: "Experienced cat groomer", d: "Calm handling from someone who grooms cats all day." },

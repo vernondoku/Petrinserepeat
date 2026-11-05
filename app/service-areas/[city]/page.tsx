@@ -4,6 +4,23 @@ import { notFound } from "next/navigation";
 import { Hero, Tiles, Steps, FAQ, FinalCTA, Reviews, MobilePolicies } from "@/components/sections";
 import { cities, site, pricingRules } from "@/data/site";
 import cityContent from "@/data/cities-content.json";
+import type { ImgName } from "@/data/site";
+
+/** Rotate real client photos through the city heroes so each page looks different. */
+const heroPool: { img: ImgName; alt: string; pos: string }[] = [
+  { img: "dog-sheepadoodle-van", alt: "A sheepadoodle inside the Pet Rinse Repeat van after a groom", pos: "object-[center_30%]" },
+  { img: "dog-goldendoodle-chiefs", alt: "A Goldendoodle in a Chiefs bandana after a groom in the van", pos: "object-[center_35%]" },
+  { img: "van-side", alt: "The Pet Rinse Repeat mobile grooming van", pos: "object-[center_40%]" },
+  { img: "dog-poodle-tux", alt: "A small poodle in a tuxedo harness on the van table", pos: "object-[center_35%]" },
+  { img: "dog-bulldog-van", alt: "An English Bulldog on the table inside the van", pos: "object-[center_40%]" },
+  { img: "van-curbside", alt: "The Pet Rinse Repeat van parked at a client's home", pos: "object-[center_60%]" },
+  { img: "dog-yorkie-hands", alt: "A Yorkie's trimmed face held in the groomer's hands", pos: "object-[center_40%]" },
+  { img: "dog-shihtzu-chiefs", alt: "A Shih Tzu mix in a Chiefs bandana", pos: "object-[center_40%]" },
+  { img: "dog-yorkiemix-van", alt: "A Yorkie mix in front of the van's logo wall", pos: "object-[center_40%]" },
+  { img: "van-team", alt: "The Pet Rinse Repeat team beside the van", pos: "object-[center_40%]" },
+  { img: "dog-cavalier-tub", alt: "A Cavalier peeking over the tub mid-bath", pos: "object-[center_35%]" },
+  { img: "dog-yorkie-van", alt: "A Yorkie after a trim in the van", pos: "object-[center_40%]" },
+];
 
 export function generateStaticParams() { return cities.map((c) => ({ city: c.slug })); }
 export const dynamicParams = false;
@@ -22,6 +39,7 @@ export default async function Page({ params }: { params: Promise<{ city: string 
   const { city } = await params; const c = cities.find((x) => x.slug === city);
   if (!c) notFound();
   const where = `${c.name}, ${c.state}`;
+  const hero = heroPool[cities.findIndex((x) => x.slug === c.slug) % heroPool.length];
   type Mark = string | { name: string; note?: string };
   const local = (cityContent as { slug: string; neighborhoods: string[]; landmarks: Mark[] }[]).find((x) => x.slug === c.slug);
   const hoods = local?.neighborhoods ?? [];
@@ -31,7 +49,7 @@ export default async function Page({ params }: { params: Promise<{ city: string 
       <Hero kick={`Mobile grooming in ${where}`} title={<>Their spa.<br /><span className="accent">Your {c.name} driveway.</span></>}
         blurb={`Professional dog grooming that comes to you in ${where}. No car ride, no kennel wait — the groomer parks outside and your dog never leaves home.`}
         service="mobile" cta="Book mobile grooming" secondary={{ href: "/cat-grooming/", label: "Cat grooming" }}
-        img="van-side" alt="The Pet Rinse Repeat mobile grooming van" placement={`city_hero_${c.slug}`} />
+        img={hero.img} alt={hero.alt} imgPos={hero.pos} placement={`city_hero_${c.slug}`} />
       <Tiles items={[
         { icon: "home", t: "Convenient & easy", d: `We come to your home or office in ${c.name}.` },
         { icon: "paw", t: "Stress-less grooming", d: "A familiar, comfortable setting for your dog." },
