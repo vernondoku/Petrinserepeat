@@ -41,6 +41,7 @@ export default function Page() {
     { icon: "paw", t: "Size", d: "Your pet's size and weight." },
     { icon: "sparkle", t: "Coat", d: "Length, thickness, and condition." },
     { icon: "scissors", t: "Service", d: "The grooming services you choose." },
+    { icon: "heart", t: "Behavior", d: "Nervous, wiggly, or reactive pets take more time and care." },
     { icon: "clock", t: "Hands-on time", d: "The time needed for a safe, quality groom." },
   ];
   return (
