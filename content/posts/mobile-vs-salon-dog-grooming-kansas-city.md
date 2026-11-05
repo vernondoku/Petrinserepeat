@@ -16,7 +16,7 @@ review:
   - "Confirm the mobile eligibility rules as written: dogs over 20 lbs must walk to and from the van and stand on their own; giant deshed breeds (Bernese, Great Pyrenees, Newfoundland, St. Bernard) are salon-only; standard and giant doodles are groomed in the van at a summer-cut length or shorter; downtown KC is not serviced by the van."
   - "Confirm the mobile parking requirement: flat, accessible driveway or street parking. Is there anything else the van needs on site (water, electric)? The post deliberately does not say either way."
   - "Confirm mobile logistics: 3-hour arrival window, appointments typically 1-3 weeks out depending on area, recurring 4/6/8-week schedule, Monday-Sunday 8:30 AM-5:30 PM."
-  - "Confirm salon hours: Tue-Thu 8:30 AM-7:00 PM, Fri-Mon 8:30 AM-5:30 PM, and address 2030 Swift Street, North Kansas City, MO 64116."
+  - "Confirm salon hours: Sun-Sat 8:30 AM-5:30 PM, and address 2030 Swift Street, North Kansas City, MO 64116."
   - "Confirm the salon's drop-off/pick-up model: is it drop-off and pick-up later, or can owners wait? The post avoids describing this. Add a sentence once confirmed."
   - "Does the mobile van groom one dog at a time, start to finish, with no other dogs present? The post describes it as one-on-one in the van; confirm that is accurate."
   - "Confirm the salon's cage/kennel arrangement (cage-free, kennels for waiting dogs, kennel dryers or not). The post does not describe it; confirm before adding anything."
@@ -52,7 +52,7 @@ If you want the full walkthrough, read [what to expect at your first mobile appo
 
 The Pet Rinse Repeat Groomery & Boutique is at 2030 Swift Street in North Kansas City. You book a time slot online, bring your dog in, and the groom happens in the salon.
 
-- **Hours.** Tuesday through Thursday 8:30 AM to 7:00 PM; Friday through Monday 8:30 AM to 5:30 PM. The later weekday evenings are handy if you work a standard day.
+- **Hours.** Seven days a week, 8:30 AM to 5:30 PM. The weekday evenings are handy if you work a standard day.
 - **No geography limits.** If you can drive to North Kansas City, you can book. That makes the salon the answer for downtown residents and for anyone outside the van's route.
 - **Every size and coat.** The salon handles the giant deshed breeds the van cannot, and doodles can be left longer than a summer cut.
 - **Puppy options.** The salon offers a puppy's first groom at a flat $100 and a 2-week puppy desensitizing visit with nail trim for $40, a gentle way to get a young dog used to the process.
@@ -67,7 +67,7 @@ See the [salon grooming](/salon-grooming/) page for the full service list.
 | | Mobile van | North Kansas City salon |
 |---|---|---|
 | Where | Your driveway or curb | 2030 Swift Street, North KC |
-| Days and hours | Mon–Sun, 8:30 AM–5:30 PM | Tue–Thu 8:30 AM–7:00 PM; Fri–Mon 8:30 AM–5:30 PM |
+| Days and hours | Mon–Sun, 8:30 AM–5:30 PM | Sun–Sat, 8:30 AM–5:30 PM |
 | Booking | Pick a time slot online; typically 1–3 weeks out; 3-hour arrival window | Pick a time slot online |
 | Environment | One dog at a time in the van | Salon setting |
 | Travel for you | None | You drive to North KC |

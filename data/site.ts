@@ -21,8 +21,8 @@ export const site = {
   email: "scheduling@petrinserepeat.com",
   address: { street: "2030 Swift Street", city: "North Kansas City", state: "MO", zip: "64116" },
   /** Confirmed by Vern Nov 5, 2026 (matches the old site and Google). Note: the door decal still shows Tue–Sat 9–5. */
-  salonHours: "Tue–Thu 8:30 AM–7:00 PM · Fri–Mon 8:30 AM–5:30 PM",
-  salonHoursSchema: ["Tu 08:30-19:00", "We 08:30-19:00", "Th 08:30-19:00", "Fr 08:30-17:30", "Sa 08:30-17:30", "Su 08:30-17:30", "Mo 08:30-17:30"],
+  salonHours: "Sunday–Saturday, 8:30 AM–5:30 PM",
+  salonHoursSchema: ["Mo-Su 08:30-17:30"],
   /** Confirmed by Vern Nov 5, 2026. */
   mobileHours: "Monday–Sunday, 8:30 AM–5:30 PM",
   mobileHoursSchema: ["Mo-Su 08:30-17:30"],

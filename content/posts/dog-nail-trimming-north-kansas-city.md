@@ -40,7 +40,7 @@ This post walks through what Pet Rinse Repeat offers for nail care at the North 
 | Paw-ticure | $40 | Nail care plus a trim of the hair around and between the paw pads |
 | Paw pads | $20 | Pad hair trim on its own |
 
-Salon hours are Tuesday through Thursday, 8:30 AM to 7:00 PM, and Friday through Monday, 8:30 AM to 5:30 PM. Nail appointments are booked online through the [salon grooming page](/salon-grooming/), same as any other salon service. We're not listing walk-in availability here; if you're not sure whether a time works, call (816) 606-4951 before you come by.
+Salon hours are seven days a week, 8:30 AM to 5:30 PM. Nail appointments are booked online through the [salon grooming page](/salon-grooming/), same as any other salon service. We're not listing walk-in availability here; if you're not sure whether a time works, call (816) 606-4951 before you come by.
 
 **With the mobile van**, nail care is $50 flat per visit, and a nail trim and dremel for an additional pet at the same stop is $20. The standard $20 travel fee applies to mobile visits. The van comes to you anywhere in PRR's [service areas](/service-areas/) across the Kansas City metro, Monday through Sunday, 8:30 AM to 5:30 PM, with a 3-hour arrival window. Mobile appointments typically book one to three weeks out depending on your area, so a nail-only visit in the van is a plan-ahead option rather than a same-week one.
 
