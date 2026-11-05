@@ -1,152 +1,389 @@
 [
   {
-    "slug": "basehor-ks",
-    "neighborhoods": ["Downtown Basehor", "Cedar Creek", "Woodland Hills", "Silver Creek"],
-    "landmarks": [],
-    "localNote": null
-  },
-  {
-    "slug": "blue-springs-mo",
-    "neighborhoods": ["Downtown Blue Springs", "Lake Tapawingo Area", "Stone Canyon", "Chapman Farms"],
-    "landmarks": ["Lake Remembrance", "Burr Oak Woods Conservation Area", "Downtown Blue Springs", "Blue Springs Farmers Market"],
-    "localNote": null
-  },
-  {
-    "slug": "bonner-springs-ks",
-    "neighborhoods": [],
-    "landmarks": [],
-    "localNote": null
-  },
-  {
-    "slug": "fairway-ks",
-    "neighborhoods": [],
-    "landmarks": [],
-    "localNote": null
-  },
-  {
-    "slug": "gladstone-mo",
-    "neighborhoods": ["Downtown Gladstone", "Woods Edge"],
-    "landmarks": ["Oak Grove Park", "Gladstone Community Center", "The Heights Family Aquatic Center", "Arboretum at the Gladstone Library"],
-    "localNote": null
-  },
-  {
-    "slug": "grandview-mo",
-    "neighborhoods": ["Downtown Grandview", "Longview Lake Area", "Meadowmere"],
-    "landmarks": ["Longview Lake", "Downtown Grandview", "Meadowmere Park", "The View Community Center"],
-    "localNote": null
-  },
-  {
-    "slug": "independence-mo",
-    "neighborhoods": [],
-    "landmarks": [],
-    "localNote": null
-  },
-  {
-    "slug": "kansas-city-ks",
-    "neighborhoods": ["Downtown Kansas City, KS"],
-    "landmarks": ["Kansas Speedway", "Legends Outlets Kansas City", "Wyandotte County Lake Park"],
+    "slug": "north-kansas-city-mo",
+    "neighborhoods": ["Downtown North Kansas City", "Armour Road District", "Northgate Village", "Swift Avenue Corridor", "Macken Park Area"],
+    "landmarks": [
+      { "name": "Waggin' Trail Off-Leash Dog Park", "note": "4.7-acre fenced park, big and small dog sides" },
+      { "name": "Macken Park", "note": "60-acre park with 1-mile walking loop" },
+      { "name": "Dagg Park", "note": "Playground, spray park and fountain by City Hall" },
+      { "name": "Armour Road District", "note": "Walkable strip of breweries, patios and shops" },
+      { "name": "Heart of America Bridge Trail", "note": "Bike-pedestrian path linking NKC to downtown KC" }
+    ],
     "localNote": null
   },
   {
     "slug": "kansas-city-mo",
-    "neighborhoods": ["Downtown Kansas City", "Crown Center", "Brookside", "Westport"],
-    "landmarks": ["National WWI Museum and Memorial", "Nelson-Atkins Museum of Art", "Kansas City Zoo", "Union Station", "Kansas City Power & Light District"],
+    "neighborhoods": ["Briarcliff", "Staley Farms", "Gashland", "New Mark", "Nashua", "Brookside"],
+    "landmarks": [
+      { "name": "Waggin' Trail Off-Leash Dog Park", "note": "Northland off-leash park with paved loops" },
+      { "name": "Line Creek Trail", "note": "8-mile paved trail, Barry Road to Riverside" },
+      { "name": "Hodge Park", "note": "1,000 acres, 7 miles of wooded trails" },
+      { "name": "Shoal Creek Trail", "note": "2-mile paved trail past 1800s village" },
+      { "name": "Penn Valley Off-Leash Dog Park", "note": "City's first dog park, 29th and Wyandotte" },
+      { "name": "Swope Park Off-Leash Dog Park", "note": "5 fenced acres, separate small-dog area" }
+    ],
     "localNote": null
   },
   {
-    "slug": "lees-summit-mo",
-    "neighborhoods": ["Downtown Lee's Summit", "Lakewood", "Longview Farms"],
-    "landmarks": ["Longview Lake", "Legacy Park", "Lee's Summit Farmers Market", "Downtown Lee's Summit", "Summit Fair"],
+    "slug": "kansas-city-ks",
+    "neighborhoods": ["Piper", "Rosedale", "Argentine", "Turner", "Armourdale", "Quindaro"],
+    "landmarks": [
+      { "name": "Wyandotte County Lake Park", "note": "1,500 acres, fenced leash-free dog run" },
+      { "name": "St. John's Park Dog Park", "note": "Fenced dog park with small-dog area downtown" },
+      { "name": "Kaw Point Park", "note": "River confluence trailhead, skyline views" },
+      { "name": "Rosedale Park", "note": "55 acres with two disc golf courses" },
+      { "name": "Rozark Nature Trails", "note": "4 miles of wooded paths off Mount Marty Park" },
+      { "name": "Legends Outlets Kansas City", "note": "Open-air outlet shopping near Kansas Speedway" }
+    ],
     "localNote": null
   },
   {
-    "slug": "lenexa-ks",
-    "neighborhoods": ["Old Town Lenexa", "Lenexa Hills", "Lenexa City Center"],
-    "landmarks": ["Shawnee Mission Park", "Old Town Lenexa", "Lenexa Farmers Market"],
+    "slug": "gladstone-mo",
+    "neighborhoods": ["Downtown Gladstone (Linden Square)", "Hamilton Heights", "Carriage Hill", "The Trails", "Maple Woods Area"],
+    "landmarks": [
+      { "name": "Happy Rock Park", "note": "100 acres with 1-mile paved loop" },
+      { "name": "Oak Grove Park", "note": "Paved pond loop, about 0.9 miles" },
+      { "name": "Hobby Hill Park", "note": "32 wooded acres with walking trails" },
+      { "name": "Linden Square", "note": "Downtown plaza with amphitheater and events" },
+      { "name": "Central Park", "note": "15-acre park, pirate ship playground and pool" }
+    ],
     "localNote": null
   },
   {
     "slug": "liberty-mo",
-    "neighborhoods": ["Downtown Liberty", "South Liberty", "Green Acres", "Liberty Hills"],
-    "landmarks": ["Liberty Jail Historic Site", "Jesse James Bank Museum", "Liberty Community Center"],
-    "localNote": null
-  },
-  {
-    "slug": "merriam-ks",
-    "neighborhoods": ["Downtown Merriam"],
-    "landmarks": ["Antioch Park", "Turkey Creek Streamway Trail", "Merriam Marketplace"],
-    "localNote": null
-  },
-  {
-    "slug": "mission-ks",
-    "neighborhoods": ["Downtown Mission"],
-    "landmarks": ["Downtown Mission", "Streamway Park", "Johnson Drive Corridor"],
-    "localNote": null
-  },
-  {
-    "slug": "north-kansas-city-mo",
-    "neighborhoods": ["Downtown North Kansas City"],
-    "landmarks": [],
-    "localNote": null
-  },
-  {
-    "slug": "olathe-ks",
-    "neighborhoods": ["Downtown Olathe", "Olathe West", "Olathe South"],
-    "landmarks": ["Downtown Olathe", "Olathe Soccer Complex"],
-    "localNote": null
-  },
-  {
-    "slug": "overland-park-ks",
-    "neighborhoods": ["Downtown Overland Park", "Oak Park", "College Boulevard Corridor", "Indian Creek"],
-    "landmarks": [],
+    "neighborhoods": ["Liberty Square (Historic Downtown)", "Clay Meadows", "Homestead of Liberty", "Tapp Farms", "Canterbury"],
+    "landmarks": [
+      { "name": "Stocksdale Dog Park", "note": "3 fenced acres plus small-dog area" },
+      { "name": "Anderson Memorial Dog Park", "note": "Agility equipment, tunnel, at Ruth Moore Park" },
+      { "name": "Liberty Square", "note": "Historic courthouse square with shops and dining" },
+      { "name": "Liberty Trail System", "note": "18+ miles of paved multi-use trails" },
+      { "name": "Stocksdale Park", "note": "East-side park with trails and restrooms" }
+    ],
     "localNote": null
   },
   {
     "slug": "parkville-mo",
-    "neighborhoods": ["River Hills", "Riss Lake", "The National", "Downtown Parkville"],
-    "landmarks": ["Parkville Nature Sanctuary", "English Landing Park", "The National Golf Club of Kansas City", "Historic Downtown Parkville"],
+    "neighborhoods": ["Downtown Parkville", "Riss Lake", "The National", "Thousand Oaks", "Creekside", "Copper Hill Reserve"],
+    "landmarks": [
+      { "name": "Platte Landing Dog Park", "note": "Off-leash park in riverside Platte Landing Park" },
+      { "name": "English Landing Park", "note": "68 acres, 3 miles of riverfront trails" },
+      { "name": "Historic Downtown Parkville", "note": "Walkable Main Street with shops and patios" },
+      { "name": "Missouri Riverfront Trail", "note": "5-mile levee trail to Riverside" },
+      { "name": "Sullivan Nature Sanctuary", "note": "Creekside trails north of Platte Landing" }
+    ],
     "localNote": null
   },
   {
     "slug": "platte-city-mo",
-    "neighborhoods": ["South Platte", "West Platte", "Platte City Heights", "Downtown Platte City"],
-    "landmarks": ["Platte City Historic Downtown"],
-    "localNote": null
-  },
-  {
-    "slug": "prairie-village-ks",
-    "neighborhoods": ["Downtown Prairie Village", "Prairie Village Shops", "Mission Road & 75th Street"],
-    "landmarks": [],
-    "localNote": null
-  },
-  {
-    "slug": "raymore-mo",
-    "neighborhoods": ["Timber Creek", "Foxwood Springs", "The Meadows", "Downtown Raymore"],
-    "landmarks": ["Timber Creek Park", "The Meadows Park"],
-    "localNote": null
-  },
-  {
-    "slug": "raytown-mo",
-    "neighborhoods": [],
-    "landmarks": [],
+    "neighborhoods": ["Downtown Platte City", "Seven Bridges", "Hills of Oakmont", "Oak Valley", "Brookfield", "Windmill Creek"],
+    "landmarks": [
+      { "name": "Riverview Park", "note": "72 acres, paved trail and disc golf" },
+      { "name": "Platte Ridge Park", "note": "211 acres of rolling hills and trails" },
+      { "name": "Rising Star Park", "note": "Neighborhood park on Second Street" },
+      { "name": "Downtown Platte City", "note": "Historic Main Street near the courthouse" }
+    ],
     "localNote": null
   },
   {
     "slug": "riverside-mo",
-    "neighborhoods": ["Riverside Acres", "The Parkway", "Riverside Village", "Stone Ridge"],
-    "landmarks": ["Riverside Park", "Missouri Riverfront Trail", "Riverside Historic District"],
+    "neighborhoods": ["Downtown Riverside", "The Palisades", "Bella Ridge", "Montebella", "Vivion Road Corridor"],
+    "landmarks": [
+      { "name": "E.H. Young Riverfront Park", "note": "Off-leash dog park, 1.3-mile paved loops" },
+      { "name": "Line Creek Trail", "note": "3 paved miles inside Riverside limits" },
+      { "name": "Renner Brenner Park", "note": "Trailhead for Line Creek and Jumping Branch" },
+      { "name": "Missouri Riverfront Trail", "note": "5-mile levee trail to Parkville" },
+      { "name": "Interurban Trail", "note": "Half-mile trail on old rail line" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "smithville-mo",
+    "neighborhoods": ["Downtown Smithville", "Harborview", "Diamond Crest", "Clay Creek", "Harbor Lake", "Cedar Lake Estates"],
+    "landmarks": [
+      { "name": "Smithville Lake Dog Park", "note": "Fenced small and large dog areas" },
+      { "name": "Smith's Fork Park", "note": "250+ acres below Smithville Lake dam" },
+      { "name": "Lake Remote Nature Area", "note": "Nearly 4 miles of trails around a lake" },
+      { "name": "Heritage Park", "note": "Half-mile paved walking trail" },
+      { "name": "Downtown Smithville Historic District", "note": "National Register district of 1860s-era storefronts" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "kearney-mo",
+    "neighborhoods": ["Downtown Kearney", "Regency Park", "Cottonwood Creek", "Private Gardens", "Glenside"],
+    "landmarks": [
+      { "name": "Jesse James Bark Dog Park", "note": "Fenced small and large dog sections" },
+      { "name": "Jesse James Park", "note": "134 acres, 1.5-mile paved loop, lake" },
+      { "name": "Mack Porter Park", "note": "49 acres with 1-mile paved trail" },
+      { "name": "Fishing River Trail", "note": "4-mile paved loop on the south side" },
+      { "name": "Lions Park", "note": "Downtown park with splash pad and amphitheater" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "independence-mo",
+    "neighborhoods": ["Independence Square", "Little Blue", "Spring Branch", "Glendale", "Three Trails", "Mill Creek"],
+    "landmarks": [
+      { "name": "Santa Fe Park Dog Park", "note": "Fenced off-leash area with shade and water" },
+      { "name": "Little Blue Trace Trail", "note": "15-mile crushed-rock trail along the river" },
+      { "name": "George Owens Nature Park", "note": "86 acres, 3 miles of leashed-dog trails" },
+      { "name": "Independence Square", "note": "Historic courthouse square, shops and patios" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "blue-springs-mo",
+    "neighborhoods": ["Downtown Blue Springs", "Chapman Farms", "Shadow Glen", "Adams Pointe", "Fall Creek", "The Moors at Waterfield"],
+    "landmarks": [
+      { "name": "Blue Springs Dog Park", "note": "Fenced large and small dog areas, lake access" },
+      { "name": "Lake Remembrance Trail", "note": "2-mile paved loop around a 54-acre lake" },
+      { "name": "Gregory O. Grounds Park", "note": "About 3 miles of walking trails" },
+      { "name": "Downtown Blue Springs", "note": "Main Street shops and restaurants" },
+      { "name": "Rotary Park at Railroad Lake", "note": "Lakeside city park" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "lees-summit-mo",
+    "neighborhoods": ["Downtown Lee's Summit", "Lakewood", "Longview Farms", "Raintree Lake", "Winterset", "Chapel Ridge"],
+    "landmarks": [
+      { "name": "Dogwood Park", "note": "5-acre off-leash park with agility course" },
+      { "name": "Happy Tails Park", "note": "4-acre off-leash park, paved loop" },
+      { "name": "Legacy Park", "note": "692 acres, 4.7-mile paved trail, lake" },
+      { "name": "Downtown Lee's Summit", "note": "National Register historic district with patios" },
+      { "name": "Longview Lake Trail", "note": "6.5-mile lakeshore trail, leashed dogs welcome" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "raytown-mo",
+    "neighborhoods": ["Downtown Raytown", "Woodson Estates", "East Swope Highlands", "Southwood", "Wildwood Lake"],
+    "landmarks": [
+      { "name": "Terry Copeland Park Dog Park", "note": "Raytown's first dog park, opened 2025" },
+      { "name": "C. Lee Kenagy Park", "note": "18 acres, fishing pond, walking trail" },
+      { "name": "Sarah Colman-Livengood Park", "note": "15 acres with 0.6-mile trail" },
+      { "name": "Little Blue Trace Trail", "note": "Long crushed-rock trail along Little Blue River" },
+      { "name": "Henry C. Kritser Park", "note": "Four-loop walking trail" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "raymore-mo",
+    "neighborhoods": ["Downtown Raymore", "Foxwood Springs", "Prairie View at The Good Ranch", "Eagle Glen", "Stonegate", "Wood Creek"],
+    "landmarks": [
+      { "name": "Hawk Ridge Park", "note": "79 acres, paved trail around fishing lake" },
+      { "name": "Recreation Park", "note": "62 acres with pond and shelters" },
+      { "name": "T.B. Hanna Station", "note": "Downtown park with Depot pavilion and events" },
+      { "name": "Memorial Park", "note": "20-plus acres hosting city festivals" },
+      { "name": "Eagle Glen Linear Park", "note": "25 acres of walking trails" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "grandview-mo",
+    "neighborhoods": ["Downtown Grandview (Main Street)", "Belvidere", "Hunter Gardens", "Longview Lake Area", "Highway 150 Corridor"],
+    "landmarks": [
+      { "name": "Tails & Trails Dog Park", "note": "Three fenced areas by size, water fountains" },
+      { "name": "Meadowmere Park", "note": "Trails linking amphitheater and community center" },
+      { "name": "Longview Lake Trail", "note": "6.5-mile lakeshore trail ending in Grandview" },
+      { "name": "Grandview Main Street", "note": "Revitalized historic corridor with cafes" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "brookside-mo",
+    "neighborhoods": ["Brookside", "Armour Hills", "Crestwood", "Brookside Park", "Greenway Fields", "Wornall Manor"],
+    "landmarks": [
+      { "name": "Trolley Track Trail", "note": "6.6-mile crushed-limestone trail through Brookside" },
+      { "name": "Loose Park", "note": "74 acres, rose garden, 1.2-mile loop" },
+      { "name": "Brookside Shopping District", "note": "Historic 1919 shops at 63rd and Brookside" },
+      { "name": "Brookside Court Park", "note": "Neighborhood park with pickleball courts" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "ward-parkway-mo",
+    "neighborhoods": ["Sunset Hill", "Romanelli Gardens", "Ward Estates", "Armour Hills", "Holmes Park", "Country Club District"],
+    "landmarks": [
+      { "name": "Loose Park", "note": "74 acres, rose garden, 1.2-mile loop" },
+      { "name": "Ward Parkway Median", "note": "Landscaped boulevard with fountains and statues" },
+      { "name": "Meyer Circle Sea Horse Fountain", "note": "Landmark fountain at Ward Parkway and Meyer" },
+      { "name": "Trolley Track Trail", "note": "Crushed-limestone trail paralleling Brookside Road" },
+      { "name": "Ward Parkway Center", "note": "Shopping center at 8600 Ward Parkway" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "zona-rosa-mo",
+    "neighborhoods": ["Prairie Point-Wildberry", "Park Forest", "Coves North", "The Coves", "Platte Brook North", "Fountain Hills"],
+    "landmarks": [
+      { "name": "Zona Rosa", "note": "Open-air town center with walkable streets" },
+      { "name": "Line Creek Trail", "note": "8-mile paved trail starting near Barry Road" },
+      { "name": "Mark L. McHenry Park", "note": "800+ acres, 15 miles of trails near KCI" },
+      { "name": "Village at Briarcliff", "note": "Hilltop shops and patios with skyline views" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "overland-park-ks",
+    "neighborhoods": ["Downtown Overland Park", "Oak Park", "Deer Creek", "Nottingham", "Blue Valley", "Pinehurst"],
+    "landmarks": [
+      { "name": "Thomas S. Stoll Memorial Park", "note": "7-acre off-leash area plus small-dog yard" },
+      { "name": "Indian Creek Trail", "note": "17 paved miles through Overland Park" },
+      { "name": "Overland Park Arboretum", "note": "300 acres, leashed dogs on mulch paths" },
+      { "name": "Downtown Overland Park", "note": "Farmers market and dog-friendly patios" },
+      { "name": "Prairiefire Trail", "note": "1.5-mile loop around wetlands and shops" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "prairie-village-ks",
+    "neighborhoods": ["Prairie Village Shops Area", "Corinth Square", "Prairie Hills", "Meadowbrook (The Reserve)", "Mission Road Corridor"],
+    "landmarks": [
+      { "name": "Meadowbrook Park", "note": "80 acres, 3 miles of paved loops" },
+      { "name": "Harmon Park", "note": "Pool, tennis, disc golf and skate park" },
+      { "name": "Porter Park", "note": "Walking path and exercise trail" },
+      { "name": "The Shops of Prairie Village", "note": "Walkable outdoor shopping center" },
+      { "name": "Windsor Park", "note": "Walking paths with three pedestrian bridges" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "leawood-ks",
+    "neighborhoods": ["Old Leawood", "Leawood Estates", "Hallbrook", "Regents Park", "Deer Creek", "Aventino"],
+    "landmarks": [
+      { "name": "Leawoof Dog Park", "note": "5-acre off-leash park along Indian Creek" },
+      { "name": "Tomahawk Creek Trail", "note": "4.1-mile paved creekside trail" },
+      { "name": "Ironwoods Park", "note": "115 acres, 2 miles of paved loops" },
+      { "name": "Leawood City Park", "note": "66-acre park linked to Tomahawk trail" },
+      { "name": "Town Center Plaza", "note": "Outdoor shopping district" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "olathe-ks",
+    "neighborhoods": ["Downtown Olathe", "Cedar Creek", "Prairie Farms", "Stonebridge Park", "Wolf Run", "Copper Creek"],
+    "landmarks": [
+      { "name": "Heritage Park Off-Leash Area", "note": "27 fenced acres with paved trails" },
+      { "name": "Cedar Creek Trail at Lake Olathe", "note": "2.8-mile paved trail between two lakes" },
+      { "name": "Mill Creek Streamway Park", "note": "17-mile trail ending in Olathe" },
+      { "name": "Downtown Olathe", "note": "Farmers market and Fourth Fridays events" },
+      { "name": "Black Bob Park", "note": "Community park near Heritage Park" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "lenexa-ks",
+    "neighborhoods": ["Old Town Lenexa", "Lenexa City Center", "Four Colonies", "Timber Rock", "Post Oak Farms", "Bristol Highlands"],
+    "landmarks": [
+      { "name": "Black Hoof Park", "note": "231 acres around 35-acre Lake Lenexa" },
+      { "name": "Sar-Ko-Par Trails Park", "note": "51 acres, paved trails and pond" },
+      { "name": "Mill Creek Streamway Park", "note": "17-mile trail through Lenexa" },
+      { "name": "Shawnee Mission Park Off-Leash Area", "note": "44-acre dog area with lake access" },
+      { "name": "Lenexa City Center", "note": "Walkable public market and plaza" }
+    ],
     "localNote": null
   },
   {
     "slug": "shawnee-ks",
-    "neighborhoods": ["Downtown Shawnee", "Shawnee Hills"],
-    "landmarks": ["Downtown Shawnee", "Shawnee Town 1929", "Shawnee Mission Park"],
+    "neighborhoods": ["Downtown Shawnee", "Wedgewood", "Grey Oaks", "Monticello", "Canyon Lakes", "Saddlebrooke"],
+    "landmarks": [
+      { "name": "Shawnee Mission Park Off-Leash Area", "note": "44 acres, trails and lake beach" },
+      { "name": "Shawnee Mission Park", "note": "1,600 acres, 20+ miles of trails" },
+      { "name": "Mill Creek Streamway Park", "note": "17-mile trail from the Kansas River" },
+      { "name": "Downtown Shawnee", "note": "Johnson Drive restaurants and breweries" },
+      { "name": "Shawnee Town 1929", "note": "Open-air museum of a 1920s farm town" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "merriam-ks",
+    "neighborhoods": ["Downtown Merriam", "Brookhaven", "Merriam Town Center", "Turkey Creek Corridor"],
+    "landmarks": [
+      { "name": "Antioch Park", "note": "44-acre county park with lakes and trails" },
+      { "name": "Turkey Creek Streamway Trail", "note": "4-mile paved trail, 75th to Antioch" },
+      { "name": "Waterfall Park", "note": "Playground, pollinator garden and trails" },
+      { "name": "Merriam Marketplace", "note": "Covered pavilion hosting farmers market" },
+      { "name": "Chatlain Park", "note": "Access point to Turkey Creek trail" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "mission-ks",
+    "neighborhoods": ["Downtown Mission (Johnson Drive)", "Lido Villas", "Apollo Gardens", "Countryside"],
+    "landmarks": [
+      { "name": "Mohawk Park", "note": "10-foot-wide perimeter trail, pavilion" },
+      { "name": "Streamway Park", "note": "0.4-mile walking trail and shelter" },
+      { "name": "Broadmoor Park", "note": "0.3-mile walking trail and fields" },
+      { "name": "Waterworks Park", "note": "Lit perimeter trail, all-abilities playground" },
+      { "name": "Johnson Drive", "note": "Walkable main street of shops and cafes" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "fairway-ks",
+    "neighborhoods": ["Fairway", "Reinhardt Estates", "Golden Triangle", "Shawnee Mission Parkway Corridor"],
+    "landmarks": [
+      { "name": "Shawnee Indian Mission State Historic Site", "note": "12-acre grounds with walking trail and gardens" },
+      { "name": "Fairway Park", "note": "City park and pool at the heart of town" },
+      { "name": "Kathryn Lyon Flora Park", "note": "Small neighborhood park" },
+      { "name": "Antioch Park", "note": "Nearby 44-acre park with trails" }
+    ],
     "localNote": null
   },
   {
     "slug": "westwood-ks",
-    "neighborhoods": [],
-    "landmarks": [],
+    "neighborhoods": ["Westwood", "Belinder's Addition", "Westwood Brush Creek", "Westwood Hills"],
+    "landmarks": [
+      { "name": "Joe D. Dennis Park", "note": "4-acre neighborhood park, playground upgrade planned" },
+      { "name": "Brush Creek Greenway", "note": "Waterside walkway along Brush Creek" },
+      { "name": "Loose Park", "note": "Nearby 74-acre park with 1.2-mile loop" },
+      { "name": "Country Club Plaza", "note": "Nearby outdoor shopping district" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "bonner-springs-ks",
+    "neighborhoods": ["Downtown Bonner Springs", "Loring", "Lake of the Forest", "Sandstone Pointe"],
+    "landmarks": [
+      { "name": "Wyandotte County Park", "note": "325 acres, trails and disc golf" },
+      { "name": "Kerry Roberts Memorial Park", "note": "10-acre nature park with walking trail" },
+      { "name": "Lions Park", "note": "Ponds and trails, linked to South Park" },
+      { "name": "South Park", "note": "Trail connection, skate park, horseshoe pits" },
+      { "name": "Downtown Oak Street", "note": "Walkable historic shops and eateries" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "basehor-ks",
+    "neighborhoods": ["Downtown Basehor", "Falcon Lakes", "GrayHawk at Prairie Gardens", "Tallgrass Estates"],
+    "landmarks": [
+      { "name": "Basehor City Park", "note": "22.7 acres of trails and shelters" },
+      { "name": "Field of Dreams Athletic Complex", "note": "32-acre complex with walking paths" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "lansing-ks",
+    "neighborhoods": ["Downtown Lansing", "The Dunes", "Wyndham Hill on the Park", "Rock Creek Estates"],
+    "landmarks": [
+      { "name": "Kenneth W. Bernard Community Park", "note": "128 acres with mown trail network" },
+      { "name": "Lansing City Park", "note": "22 acres, concrete walking path, creek" },
+      { "name": "Angel Falls Trail", "note": "Easy paved half-mile trail to waterfall" },
+      { "name": "Kelly Grove Park", "note": "16-acre nature preserve with unpaved trail" }
+    ],
+    "localNote": null
+  },
+  {
+    "slug": "leavenworth-ks",
+    "neighborhoods": ["Downtown Leavenworth", "North Broadway Historic District", "Arch Street Historic District", "Union Park", "The Branches", "Fort Leavenworth Area"],
+    "landmarks": [
+      { "name": "Waggin' Tails Dog Park", "note": "6 fenced acres in two sections" },
+      { "name": "Havens Park", "note": "Paved walking trail plus nature trails" },
+      { "name": "Leavenworth Landing Park", "note": "Paved riverfront walking trail" },
+      { "name": "Three-Mile Creek Walking Trail", "note": "Paved trail along the creek" },
+      { "name": "Downtown Leavenworth", "note": "National Register historic commercial district" }
+    ],
     "localNote": null
   }
 ]
