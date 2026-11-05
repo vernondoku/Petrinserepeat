@@ -11,6 +11,7 @@ module.exports = {
         navy: { DEFAULT: "#1E2A47", deep: "#141D33" },
         sun: { DEFAULT: "#F7B733", soft: "#FFF1CF" },
         cloud: "#F8FBFD",
+        blush: "#FFF4F9",
         ink: { DEFAULT: "#2B3448", soft: "#5B6578" },
       },
       fontFamily: {

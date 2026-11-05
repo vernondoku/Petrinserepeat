@@ -2,7 +2,7 @@ import Link from "next/link";
 import Img from "./Img";
 import BookButton from "./BookButton";
 import { site, faqs as defaultFaqs, type Service, type ImgName } from "@/data/site";
-import { reviews } from "@/data/reviews";
+import { reviews, reviewsByService } from "@/data/reviews";
 
 /* ---------- small bits ---------- */
 
@@ -182,24 +182,44 @@ export function FAQ({ items = defaultFaqs, title = "Questions, answered" }: { it
 
 /* ---------- reviews ---------- */
 
-export function Reviews() {
-  const g = site.google.salon;
+const serviceLabel: Record<Service, string> = { mobile: "Mobile", salon: "Salon", cat: "Cat" };
+
+/** Review showcase. With `service`, shows that business's own Google listing and its reviews; without, a homepage mix of all three. */
+export function Reviews({ service, title, kick = "Hear from our clients" }: { service?: Service; title?: React.ReactNode; kick?: string }) {
+  const g = service ? site.google[service] : null;
+  const items = service ? reviewsByService[service].map((r) => ({ ...r, service })) : reviews;
   return (
     <section className="wrap py-14 md:py-20">
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
-        <div><p className="kick m-0">Hear from our clients</p><h2 className="disp text-[30px] md:text-[38px] m-0">Happy pets, <span className="accent">happy people.</span></h2></div>
-        <a href={g.url} target="_blank" rel="noopener" className="text-navy font-semibold hover:text-pink">{g.rating} ★ · {g.reviewCount.toLocaleString()} Google reviews →</a>
+        <div>
+          <p className="kick m-0">{kick}</p>
+          <h2 className="disp text-[30px] md:text-[38px] m-0">{title ?? <>Happy pets, <span className="accent">happy people.</span></>}</h2>
+        </div>
+        {g ? (
+          <a href={g.url} target="_blank" rel="noopener" className="inline-flex items-center gap-3 bg-white rounded-full pl-3.5 pr-5 py-2 no-underline self-start md:self-auto border border-navy/10 shadow-card">
+            <span className="font-display font-extrabold text-[26px] leading-none text-navy">{g.rating.toFixed(1)}</span>
+            <span className="flex flex-col leading-tight"><span aria-hidden="true" className="text-sun tracking-[2px] text-sm">★★★★★</span><span className="text-[12px] text-ink-soft">{g.reviewCount.toLocaleString()} Google reviews · {g.label} →</span></span>
+          </a>
+        ) : (
+          <div className="flex flex-wrap gap-2">
+            {(Object.keys(site.google) as Service[]).map((k) => { const x = site.google[k]; return (
+              <a key={k} href={x.url} target="_blank" rel="noopener" className="inline-flex items-center gap-2 bg-white rounded-full px-3.5 py-1.5 no-underline border border-navy/10 text-sm text-navy font-semibold hover:border-pink">
+                <span className="text-sun">★</span>{x.rating.toFixed(1)} <span className="text-ink-soft font-normal">· {x.reviewCount.toLocaleString()} · {serviceLabel[k]}</span>
+              </a>
+            ); })}
+          </div>
+        )}
       </div>
       <ul className="m-0 p-0 list-none grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {reviews.slice(0, 4).map((r) => (
+        {items.slice(0, 4).map((r) => (
           <li key={r.name} className="card p-5 flex flex-col gap-3">
             <span aria-hidden="true" className="text-sun tracking-[2px]">★★★★★</span>
             <p className="m-0 text-navy leading-relaxed flex-1">&ldquo;{r.text}&rdquo;</p>
-            <span className="text-sm text-ink-soft font-semibold">{r.name}{r.service && <span className="font-normal"> · {r.service}</span>}</span>
+            <span className="text-sm text-ink-soft font-semibold">{r.name}<span className="font-normal"> · {serviceLabel[r.service]}{r.when && r.when !== "recent" ? ` · ${r.when}` : ""}</span></span>
           </li>
         ))}
       </ul>
-      <p className="text-xs text-ink-soft mt-3 m-0">Quotes from public Google reviews.</p>
+      <p className="text-xs text-ink-soft mt-3 m-0">Quotes from public Google reviews{g ? ` of ${service === "cat" ? g.label : `${site.name} ${g.label}`}` : ""}. Reviewer names as shown on Google.</p>
     </section>
   );
 }
@@ -215,6 +235,10 @@ export function TrustStrip() {
           <span className="font-display font-extrabold text-[26px] leading-none">{g.salon.rating}</span>
           <span className="flex flex-col leading-tight"><span aria-hidden="true" className="text-sun tracking-[2px] text-sm">★★★★★</span><span className="text-[12px] text-white/70">{g.salon.reviewCount.toLocaleString()} Google reviews · salon</span></span>
         </a>
+        <div className="hidden md:flex flex-col text-[13px] text-ink-soft leading-tight shrink-0">
+          <a href={g.mobile.url} target="_blank" rel="noopener" className="hover:text-pink"><span className="text-sun">★</span> {g.mobile.rating.toFixed(1)} · {g.mobile.reviewCount} reviews · mobile</a>
+          <a href={g.cat.url} target="_blank" rel="noopener" className="hover:text-pink"><span className="text-sun">★</span> {g.cat.rating.toFixed(1)} · {g.cat.reviewCount} reviews · cats</a>
+        </div>
         <ul className="m-0 p-0 list-none grid grid-cols-2 md:flex md:flex-wrap gap-x-6 gap-y-2 flex-1 text-[15px] font-semibold text-navy">
           <li className="flex items-center gap-2"><Icon name="van" color="#E5308D" /> Mobile grooming, KC metro</li>
           <li className="flex items-center gap-2"><Icon name="scissors" color="#E5308D" /> Full-service salon, NKC</li>

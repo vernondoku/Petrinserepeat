@@ -35,11 +35,12 @@ export const site = {
     salon: "https://booking.moego.pet/ol/PetRinseRepeatGroomery/book",
     cat: "https://booking.moego.pet/ol/HereKittyMobileGrooming/book",
   } satisfies Record<Service, string>,
-  /** Two Google Business Profiles, kept separate on purpose. Counts checked Nov 4, 2026. */
+  /** Three Google Business Profiles, kept separate on purpose. Counts checked Nov 5, 2026. URLs open each listing's reviews. */
   google: {
-    salon: { rating: 4.7, reviewCount: 776, url: "https://www.google.com/maps?cid=1949656064016998585" },
-    mobile: { rating: 4.9, reviewCount: 38 },
-  },
+    salon: { label: "Groomery & Boutique", rating: 4.7, reviewCount: 776, url: "https://www.google.com/maps?cid=1949328932120469689" },
+    mobile: { label: "Mobile Dog Grooming", rating: 4.9, reviewCount: 38, url: "https://share.google/hWceSH24Mwr7s3pA0" },
+    cat: { label: "Here Kitty Grooming", rating: 5.0, reviewCount: 24, url: "https://share.google/UTOLs7JPMqYGKQRgG" },
+  } satisfies Record<Service, { label: string; rating: number; reviewCount: number; url: string }>,
   social: {
     facebook: "https://www.facebook.com/petrinserepeat",
     instagram: "https://www.instagram.com/pet.rinse.repeat",

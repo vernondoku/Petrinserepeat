@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Hero, Tiles, Steps, FAQ, FinalCTA, Icon } from "@/components/sections";
+import { Hero, Tiles, Steps, FAQ, FinalCTA, Icon, Reviews } from "@/components/sections";
 import Img from "@/components/Img";
 import { site, pricingRules } from "@/data/site";
 
@@ -49,6 +49,7 @@ export default function Page() {
           <Link href="/pricing/" className="btn btn-ghost btn-sm self-start">See full pricing</Link>
         </div>
       </section>
+      <Reviews service="salon" title={<>What salon clients <span className="accent">are saying.</span></>} />
       <FAQ items={[
         { q: "Where are you located?", a: `${a.street}, ${a.city}, ${a.state} ${a.zip} — the storefront with the Pet Rinse Repeat window wrap.` },
         { q: "What are your hours?", a: site.salonHours + "." },

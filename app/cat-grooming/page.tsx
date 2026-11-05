@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Hero, Tiles, Steps, FAQ, FinalCTA, Check } from "@/components/sections";
+import { Hero, Tiles, Steps, FAQ, FinalCTA, Check, Reviews } from "@/components/sections";
 import BookButton from "@/components/BookButton";
 import { site, catPricing } from "@/data/site";
 
@@ -48,6 +48,7 @@ export default function Page() {
         { icon: "calendar", t: "We schedule a convenient time", d: "Real availability, booked online." },
         { icon: "cat", t: "We groom in a calm, cat-friendly space", d: "Not all cats are comfortable with every service; we'll talk through the best option for yours." },
       ]} />
+      <Reviews service="cat" title={<>Calm cats, <span className="accent">happy owners.</span></>} />
       <FAQ items={[
         { q: "Is this the same as the salon's cat grooming?", a: "No — Here Kitty is a separate, cat-only mobile service that comes to you. The salon also grooms cats on site, with its own menu and pricing." },
         { q: "How do I book?", a: `Online through the Here Kitty booking page, or call ${site.phone}.` },
