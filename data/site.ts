@@ -102,7 +102,7 @@ export const pricingRules = {
   details: [
     "Prices are based on hands-on grooming time, not total time at the salon or in the van.",
     "One-hour minimum on hourly services; after that, 15-minute increments (a quarter of the hourly rate).",
-    "Your groomer sets the size category for desheds based on your dog's coat and build.",
+    "Your groomer sets your service category based on your dog's coat and build.",
     "Bath & brush services are flat-rate by weight.",
     "Mobile grooming adds a $20 travel fee per visit.",
     "Cancellations within 24 hours: 50% of the service. Same-day cancellations and no-shows: 100%.",
