@@ -62,12 +62,6 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           <div className="flex-1"><p className="kick m-0">Next step</p><p className="disp text-[22px] m-0">Pick a time online — it takes about two minutes.</p><p className="text-ink-soft m-0 mt-1 text-[15px]">Or call <a href={site.phoneHref} className="text-pink font-semibold">{site.phone}</a>. See <Link href="/pricing/" className="text-pink font-semibold">pricing</Link> or the <Link href={serviceHref[p.service]} className="text-pink font-semibold">service page</Link>.</p></div>
           <BookButton service={p.service} placement={`blog_${p.slug}`}>{p.cta}</BookButton>
         </div>
-        {p.draft && p.review.length > 0 && (
-          <aside className="max-w-[760px] mx-auto mt-8 rounded-2xl border-2 border-dashed border-sun/70 bg-white p-5 text-sm">
-            <p className="m-0 font-bold text-navy">Draft — needs owner review before publishing</p>
-            <ul className="m-0 mt-2 pl-5 text-ink-soft">{p.review.map((r) => <li key={r}>{r}</li>)}</ul>
-          </aside>
-        )}
         {others.length > 0 && (
           <div className="max-w-[760px] mx-auto mt-12">
             <p className="kick m-0 mb-3">Keep reading</p>
