@@ -32,7 +32,7 @@ export default function Page() {
       <section className="wrap pb-14 md:pb-20 grid lg:grid-cols-2 gap-8">
         <div className="card p-6 md:p-8 flex flex-col gap-3">
           <h2 className="disp text-[26px] m-0">How mobile pricing works</h2>
-          <p className="text-ink-soft m-0 leading-relaxed">{pricingRules.summary} Full-service grooms start at <strong className="text-navy">$130/hr</strong>; oodles at $140/hr; large desheds at $170/hr. Flat-coat bath & brush is a flat rate by weight, from $100. A ${site.travelFee} travel fee applies per visit.</p>
+          <p className="text-ink-soft m-0 leading-relaxed">{pricingRules.summary} Full-service grooms start at <strong className="text-navy">$130/hr</strong>; oodles at $140/hr; large desheds at $170/hr. Flat-coat bath & brush is a flat rate by weight, from $100. A {"$" + site.travelFee} travel fee applies per visit.</p>
           <Link href="/pricing/" className="btn btn-ghost btn-sm self-start">See full pricing</Link>
         </div>
         <div className="card p-6 md:p-8 flex flex-col gap-3">
