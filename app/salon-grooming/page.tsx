@@ -17,7 +17,7 @@ export default function Page() {
       <Hero kick="Salon grooming" title={<>A fresh look.<br /><span className="accent">A happy bestie.</span></>}
         blurb="Professional, personalized grooming at our North Kansas City salon."
         service="salon" cta="Book a salon visit" secondary={{ href: "/pricing/", label: "See pricing" }}
-        img="salon-storefront" alt="The Pet Rinse Repeat Groomery & Boutique storefront on Swift Street" placement="salon_hero" />
+        img="salon-lobby-2" alt="The Pet Rinse Repeat salon lobby: greenery wall, white reception desk, and the grooming room windows" imgPos="object-[center_55%]" placement="salon_hero" />
       <Tiles tint items={[
         { icon: "scissors", t: "Full groom", d: "A complete, customized grooming service for a clean, healthy coat." },
         { icon: "tub", t: "Bath & tidy", d: "A refreshing bath, brush, and neat-up to keep them looking great." },
@@ -50,15 +50,27 @@ export default function Page() {
         </div>
       </section>
       <Gallery kick="From the salon" items={[
-        { img: "dog-shihtzu-salon", alt: "A black-and-white Shih Tzu mix on the salon table after a trim" },
-        { img: "dog-doodle-scissor", alt: "A cream doodle getting a scissor finish on the face" },
+        { img: "salon-golden-table", alt: "A Golden Retriever on the salon table while a groomer works on a paw" },
+        { img: "dog-corgi-salon", alt: "A Corgi standing on the grooming table in the salon" },
+        { img: "salon-groomer-sheepadoodle", alt: "A groomer finishing a sheepadoodle's face in the salon" },
+        { img: "dog-pitbull-polish", alt: "A pit bull getting red nail polish at the salon" },
+        { img: "dog-poodle-chiefs", alt: "A standard Poodle in a Chiefs jersey with yellow-dyed feet" },
+        { img: "salon-floor", alt: "The salon grooming floor with its purple and green walls" },
+        { img: "dog-shihtzu-salon", alt: "A black-and-white Shih Tzu mix after a trim" },
         { img: "cat-persian-salon", alt: "A Persian cat on the salon grooming table" },
-        { img: "dog-wheaten-bandana", alt: "A wheaten terrier mix in a bandana after a groom" },
-        { img: "dogs-doodle-lab", alt: "A chocolate doodle and a yellow Lab, both grinning" },
-        { img: "dog-shihtzu-after", alt: "A Shih Tzu after a groom at the salon" },
-        { img: "dog-cavalier-tub", alt: "A Cavalier peeking over the tub mid-bath" },
-        { img: "puppy-bow-chair", alt: "A cream puppy with a sparkly bow" },
       ]} />
+      <section className="wrap pb-14 md:pb-20 grid lg:grid-cols-[1fr_1.4fr] gap-8 items-center">
+        <div className="grid grid-cols-2 gap-4 items-start">
+          <video className="w-full aspect-square object-cover rounded-[20px] shadow-card motion-reduce:hidden" src="/media/reel-happy.mp4" poster="/media/reel-happy-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="A happy dog in a bandana on the salon table" />
+          <video className="w-full aspect-[9/16] object-cover rounded-[20px] shadow-card motion-reduce:hidden" src="/media/reel-wow.mp4" poster="/media/reel-wow-poster.jpg" autoPlay muted loop playsInline preload="metadata" aria-label="A doodle's finished groom at the salon" />
+        </div>
+        <div className="flex flex-col gap-3">
+          <p className="kick m-0">Follow along</p>
+          <h2 className="disp text-[28px] md:text-[34px] m-0">See the grooms as <span className="accent">they happen.</span></h2>
+          <p className="text-ink-soft m-0 leading-relaxed">Before-and-afters, nail polish days, and the occasional Chiefs jersey. We post from the salon and the vans.</p>
+          <a href={site.social.instagram} target="_blank" rel="noopener" className="btn btn-ghost btn-sm self-start">@pet.rinse.repeat on Instagram</a>
+        </div>
+      </section>
       <Reviews service="salon" title={<>What salon clients <span className="accent">are saying.</span></>} />
       <FAQ items={[
         { q: "Where are you located?", a: `${a.street}, ${a.city}, ${a.state} ${a.zip} — the storefront with the Pet Rinse Repeat window wrap.` },

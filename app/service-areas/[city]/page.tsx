@@ -20,6 +20,8 @@ const heroPool: { img: ImgName; alt: string; pos: string }[] = [
   { img: "van-team", alt: "The Pet Rinse Repeat team beside the van", pos: "object-[center_40%]" },
   { img: "dog-cavalier-tub", alt: "A Cavalier peeking over the tub mid-bath", pos: "object-[center_35%]" },
   { img: "dog-yorkie-van", alt: "A Yorkie after a trim in the van", pos: "object-[center_40%]" },
+  { img: "dog-poodle-chiefs", alt: "A standard Poodle in a Chiefs jersey after a groom", pos: "object-[center_45%]" },
+  { img: "dog-corgi-salon", alt: "A Corgi on the grooming table", pos: "object-[center_55%]" },
 ];
 
 export function generateStaticParams() { return cities.map((c) => ({ city: c.slug })); }

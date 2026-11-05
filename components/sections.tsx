@@ -250,8 +250,8 @@ export const galleryDefault: { img: ImgName; alt: string }[] = [
   { img: "dog-poodle-tux", alt: "A small poodle in a tuxedo harness on the van's grooming table" },
   { img: "dog-cavalier-tub", alt: "A Cavalier peeking over the edge of the tub, mid-bath" },
   { img: "dog-yorkie-hands", alt: "A Yorkie's freshly trimmed face held gently in the groomer's hands" },
-  { img: "dog-bulldog-van", alt: "An English Bulldog on the table inside the van" },
-  { img: "dogs-doodle-lab", alt: "A chocolate doodle and a yellow Lab, both grinning" },
+  { img: "dog-poodle-chiefs", alt: "A standard Poodle in a Chiefs jersey with yellow-dyed feet" },
+  { img: "dog-corgi-salon-2", alt: "A Corgi sitting on the salon grooming table" },
   { img: "puppy-bow-chair", alt: "A cream puppy with a sparkly bow on a yellow chair" },
 ];
 
