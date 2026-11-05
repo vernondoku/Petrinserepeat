@@ -5,7 +5,7 @@ import { pricingRules, mobilePricing, salonPricing, catPricing, type Service } f
 
 export const metadata: Metadata = {
   title: "Grooming Prices — Mobile, Salon & Cat",
-  description: "Pet Rinse Repeat grooming prices. Mobile dog grooming from $130/hr, salon grooming from $100/hr, flat-rate baths by weight, and cat grooming. Hourly services have a one-hour minimum.",
+  description: "Pet Rinse Repeat grooming prices. Mobile dog grooming $130–$170/hr, salon grooming $100–$140/hr, flat-rate baths by weight, and cat grooming. Hourly services have a one-hour minimum.",
   alternates: { canonical: "/pricing/" },
 };
 
@@ -33,9 +33,9 @@ function Table({ groups }: { groups: { group: string; items: { name: string; rat
 
 export default function Page() {
   const cols: { key: Service; icon: IconName; t: string; d: string; from: string }[] = [
-    { key: "mobile", icon: "van", t: "Mobile grooming", d: "Convenient, in-driveway grooming with professional, full-service care.", from: "from $130/hr" },
-    { key: "salon", icon: "scissors", t: "Salon grooming", d: "A complete grooming experience at our North Kansas City salon.", from: "from $100/hr" },
-    { key: "cat", icon: "cat", t: "Cat grooming", d: "Gentle, cat-specific grooming in our mobile cat spa.", from: "from $120" },
+    { key: "mobile", icon: "van", t: "Mobile grooming", d: "Convenient, in-driveway grooming with professional, full-service care.", from: "$130–$170/hr" },
+    { key: "salon", icon: "scissors", t: "Salon grooming", d: "A complete grooming experience at our North Kansas City salon.", from: "$100–$140/hr" },
+    { key: "cat", icon: "cat", t: "Cat grooming", d: "Gentle, cat-specific grooming in our mobile cat spa.", from: "$120–$250" },
   ];
   const factors: { icon: IconName; t: string; d: string }[] = [
     { icon: "paw", t: "Size", d: "Your pet's size and weight." },

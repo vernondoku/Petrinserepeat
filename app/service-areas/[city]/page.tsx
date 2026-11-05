@@ -168,7 +168,7 @@ export default async function Page({ params }: { params: Promise<{ city: string 
       {/* FAQ */}
       <FAQ title={`Mobile grooming in ${c.name}: questions, answered`} items={[
         { q: `Do you serve all of ${c.name}?`, a: `We serve ${where} and the surrounding Kansas City metro. If you're on the edge of our route, book and we'll confirm, or call ${site.phone}.` },
-        { q: "How is mobile grooming priced?", a: pricingRules.summary + " Mobile full-service grooms start at $130/hr, plus a $" + site.travelFee + " travel fee per visit." },
+        { q: "How is mobile grooming priced?", a: pricingRules.summary + " Mobile grooms run $130–$170/hr depending on the service, plus a $" + site.travelFee + " travel fee per visit." },
         { q: `How soon can you come to ${c.name}?`, a: "Mobile routes typically book 1–3 weeks out depending on the area. Booking online shows real availability for your address." },
         { q: "How long does an appointment take?", a: "It depends on size, coat, and condition — most dogs are done in one to two hours. You'll see an estimated duration for each service when you book." },
         { q: `Do you groom cats in ${c.name}?`, a: "Yes — through Here Kitty, our cat-only mobile grooming service, on its own van and schedule." },
