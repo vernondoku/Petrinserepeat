@@ -18,7 +18,7 @@ export default function Footer() {
     <footer className="bg-navy text-white/80 pb-24 lg:pb-0">
       <div className="wrap py-14 grid gap-10 md:grid-cols-4 text-sm">
         <div className="flex flex-col gap-3 md:col-span-2">
-          <img src="/media/badge.png" alt="" className="h-20 w-auto self-start" width="1040" height="750" />
+          <img src="/media/badge-splash.png" alt="" className="h-20 w-auto self-start" width="1040" height="750" />
           <span className="disp text-white text-[24px]">{line}</span>
           <span className="max-w-[360px]">Mobile dog grooming across the Kansas City metro, a full-service salon in North Kansas City, and cat-only mobile grooming with {site.herekitty.name}.</span>
         </div>
