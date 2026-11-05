@@ -16,7 +16,7 @@ export default function Footer() {
           <span className="kick text-white/50">Services</span>
           {nav.map((n) => <Link key={n.href} href={n.href} className="hover:text-white">{n.label}</Link>)}
           <Link href="/gallery/" className="hover:text-white">Photo gallery</Link>
-          <Link href="/book/" className="text-pink font-bold">Book a groom</Link>
+          <Link href="/book/" className="text-[#FF6FB5] font-bold">Book a groom</Link>
         </div>
         <div className="flex flex-col gap-2">
           <span className="kick text-white/50">Salon</span>
