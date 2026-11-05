@@ -20,7 +20,7 @@ export default function Page() {
         <div className="lg:col-span-3 flex flex-col gap-4">
           <p className="kick m-0">Our story</p>
           <h2 className="disp text-[30px] md:text-[38px] m-0">A calmer kind of <span className="accent">grooming.</span></h2>
-          <p className="text-ink-soft m-0 leading-relaxed text-lg">Pet Rinse Repeat was started by <strong className="text-navy">Amy Ramatowski</strong>, a professional groomer and the founder of a 501(c)(3) animal rescue, and <strong className="text-navy">Vernon Doku</strong>, an IT consultant and business director. The idea was simple: step away from conventional, high-volume grooming and give every pet a relaxed, one-on-one experience.</p>
+          <p className="text-ink-soft m-0 leading-relaxed text-lg">Pet Rinse Repeat was started by <strong className="text-navy">Amy Ramatowski</strong>, a professional groomer and the founder of the 501(c)(3) animal rescue People Helping Paws, and <strong className="text-navy">Vernon Doku</strong>, an IT consultant and business director. The idea was simple: step away from conventional, high-volume grooming and give every pet a relaxed, one-on-one experience.</p>
           <p className="text-ink-soft m-0 leading-relaxed">That started with a mobile van in the driveway and grew into a fleet, a full-service salon in North Kansas City, and Here Kitty, a mobile service that grooms only cats. Through all of it the approach hasn&rsquo;t changed — a gentle, calm environment, skilled hands, and pricing that reflects the actual time your pet needs.</p>
           <p className="text-ink-soft m-0 leading-relaxed">We&rsquo;re based in Kansas City, MO, and we&rsquo;re proud to be a familiar face on both sides of the state line.</p>
         </div>

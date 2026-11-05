@@ -56,6 +56,7 @@ export const nav = [
   { href: "/service-areas/", label: "Service areas" },
   { href: "/pricing/", label: "Pricing" },
   { href: "/about/", label: "About" },
+  { href: "/blog/", label: "Blog" },
 ];
 
 /** Cities with a live page on the old site (both URL generations). Each gets /service-areas/<slug>/. */
