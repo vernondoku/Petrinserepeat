@@ -12,6 +12,7 @@ module.exports = {
         sun: { DEFAULT: "#F7B733", soft: "#FFF1CF" },
         cloud: "#F8FBFD",
         blush: "#FFF4F9",
+        lavender: "#F6F2FC",
         ink: { DEFAULT: "#2B3448", soft: "#5B6578" },
       },
       fontFamily: {

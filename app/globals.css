@@ -12,7 +12,7 @@
 
 @layer base {
   html { scroll-behavior: smooth; }
-  body { @apply bg-blush text-ink font-sans antialiased; }
+  body { @apply bg-lavender text-ink font-sans antialiased; }
   ::selection { background: #E5308D; color: #fff; }
   h1, h2, h3 { @apply text-navy; }
 }
@@ -30,7 +30,7 @@
   .btn-sm { @apply min-h-[42px] px-5 text-[14px]; }
   .card { @apply bg-white rounded-[20px] shadow-card border border-navy/5; }
   .card-tint { @apply bg-sky-tint rounded-[20px] border border-sky/15; }
-  .band { @apply relative overflow-hidden; background: linear-gradient(135deg, #F3FAFE 0%, #FFFFFF 50%, #FFE9F2 100%); }
+  .band { @apply relative overflow-hidden; background: linear-gradient(135deg, #F3FAFE 0%, #FFFFFF 50%, #EFE8FA 100%); }
   .icon-tile { @apply inline-flex w-12 h-12 rounded-2xl bg-pink-soft text-pink items-center justify-center shrink-0; }
   .icon-tile-sky { @apply inline-flex w-12 h-12 rounded-2xl bg-sky-soft text-sky-dark items-center justify-center shrink-0; }
 }
