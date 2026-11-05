@@ -15,7 +15,7 @@ export default function Page() {
       <Hero kick="Mobile dog grooming" title={<>Their spa.<br /><span className="accent">Your driveway.</span></>}
         blurb="Professional dog grooming that comes to you in the Kansas City metro. No car ride, no kennel wait, no drop-off."
         service="mobile" cta="Book mobile grooming" secondary={{ href: "/service-areas/", label: "Check your area" }}
-        img="van-curbside" alt="The Pet Rinse Repeat van parked at a client's home" imgPos="object-[center_60%]" placement="mobile_hero" />
+        img="van-side" alt="The Pet Rinse Repeat mobile grooming van on the road in Kansas City" video={{ src: "/media/van-drive.mp4", poster: "/media/van-drive-poster.jpg" }} placement="mobile_hero" />
       <Tiles items={[
         { icon: "home", t: "Convenient & easy", d: "We come to your home or office." },
         { icon: "paw", t: "Stress-less grooming", d: "A familiar, comfortable setting for your dog." },

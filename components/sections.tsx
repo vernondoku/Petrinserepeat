@@ -53,9 +53,11 @@ type HeroProps = {
   cta?: string;
   secondary?: { href: string; label: string };
   img: ImgName; alt: string; imgPos?: string;
+  /** Optional muted looping video (public path, mp4) with a poster; falls back to `img` when reduced motion is preferred. */
+  video?: { src: string; poster: string };
   placement: string;
 };
-export function Hero({ kick, title, blurb, service, cta, secondary, img, alt, imgPos = "object-center", placement }: HeroProps) {
+export function Hero({ kick, title, blurb, service, cta, secondary, img, alt, imgPos = "object-center", video, placement }: HeroProps) {
   return (
     <section className="band">
       <Bubbles />
@@ -70,7 +72,14 @@ export function Hero({ kick, title, blurb, service, cta, secondary, img, alt, im
           </div>
         </div>
         <div className="rise d2">
-          <Img name={img} priority alt={alt} sizes="(min-width: 1024px) 50vw, 100vw" className={`w-full h-[300px] md:h-[440px] object-cover ${imgPos} rounded-[24px] shadow-lift`} />
+          {video ? (
+            <div className="relative w-full h-[300px] md:h-[440px] rounded-[24px] shadow-lift overflow-hidden bg-navy">
+              <video className="absolute inset-0 w-full h-full object-cover motion-reduce:hidden" src={video.src} poster={video.poster} autoPlay muted loop playsInline preload="metadata" aria-label={alt} />
+              <Img name={img} priority alt={alt} sizes="(min-width: 1024px) 50vw, 100vw" className={`hidden motion-reduce:block w-full h-full object-cover ${imgPos}`} />
+            </div>
+          ) : (
+            <Img name={img} priority alt={alt} sizes="(min-width: 1024px) 50vw, 100vw" className={`w-full h-[300px] md:h-[440px] object-cover ${imgPos} rounded-[24px] shadow-lift`} />
+          )}
         </div>
       </div>
     </section>
