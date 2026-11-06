@@ -16,7 +16,7 @@ export default function Page() {
     <>
       <Hero kick="Salon grooming" title={<>A fresh look.<br /><span className="accent">A happy bestie.</span></>}
         blurb="Professional, personalized grooming at our North Kansas City salon."
-        service="salon" cta="Book a salon visit" secondary={{ href: "/pricing/", label: "See pricing" }}
+        service="salon" cta="Book a salon visit" call secondary={{ href: "/pricing/", label: "See pricing" }}
         img="salon-lobby" alt="The Pet Rinse Repeat salon lobby: greenery wall, white reception desk, and the pink welcome wall" imgPos="object-[center_50%]" placement="salon_hero" />
       <Tiles tint items={[
         { icon: "scissors", t: "Full groom", d: "A complete, customized grooming service for a clean, healthy coat." },

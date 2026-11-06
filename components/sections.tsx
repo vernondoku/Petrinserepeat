@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Img from "./Img";
 import BookButton from "./BookButton";
+import CallButton from "./CallButton";
 import { site, faqs as defaultFaqs, mobilePolicies, type Service, type ImgName } from "@/data/site";
 import { reviews, reviewsByService } from "@/data/reviews";
 
@@ -52,12 +53,14 @@ type HeroProps = {
   service?: Service;            // which BookButton; omit for a non-booking hero
   cta?: string;
   secondary?: { href: string; label: string };
+  /** Show a "Call now" button in the hero (fires phone_click with the hero placement). */
+  call?: boolean;
   img: ImgName; alt: string; imgPos?: string;
   /** Optional muted looping video (public path, mp4) with a poster; falls back to `img` when reduced motion is preferred. */
   video?: { src: string; poster: string };
   placement: string;
 };
-export function Hero({ kick, title, blurb, service, cta, secondary, img, alt, imgPos = "object-center", video, placement }: HeroProps) {
+export function Hero({ kick, title, blurb, service, cta, secondary, call, img, alt, imgPos = "object-center", video, placement }: HeroProps) {
   return (
     <section className="band">
       <Bubbles />
@@ -68,6 +71,7 @@ export function Hero({ kick, title, blurb, service, cta, secondary, img, alt, im
           <p className="text-ink-soft text-lg leading-relaxed m-0 max-w-[520px]">{blurb}</p>
           <div className="flex flex-wrap gap-3 pt-1">
             {service && <BookButton service={service} placement={placement}>{cta}</BookButton>}
+            {call && <CallButton placement={placement} />}
             {secondary && <Link href={secondary.href} className="btn btn-ghost">{secondary.label}</Link>}
           </div>
         </div>
