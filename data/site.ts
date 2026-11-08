@@ -31,9 +31,9 @@ export const site = {
   travelFee: 20,
   /** One MoeGo storefront per service. Confirmed by Vern Nov 4, 2026. */
   booking: {
-    mobile: "https://booking.moego.pet/ol/PetRinseRepeat/book",
-    salon: "https://booking.moego.pet/ol/PetRinseRepeatGroomery/book",
-    cat: "https://booking.moego.pet/ol/HereKittyMobileGrooming/book",
+    mobile: "https://booking.moego.pet/ol/PetRinseRepeat/landing",
+    salon: "https://booking.moego.pet/ol/PetRinseRepeatGroomery/landing",
+    cat: "https://booking.moego.pet/ol/HereKittyMobileGrooming/landing",
   } satisfies Record<Service, string>,
   /** Three Google Business Profiles, kept separate on purpose. Counts checked Nov 5, 2026. URLs open each listing's reviews. */
   google: {
